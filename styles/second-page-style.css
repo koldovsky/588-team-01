@@ -17,7 +17,7 @@ body{
     max-height: 500px;
 }
 .gallery-carousel img{
-    position: relative;
+    position: absolute;
     max-width: 200px;
     max-height: 200px;
 }
