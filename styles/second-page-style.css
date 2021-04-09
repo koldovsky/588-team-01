@@ -8,5 +8,14 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    
+}
+.gallery-of-product{
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+}
+.gallery-carousel{
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
 }
