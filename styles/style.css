@@ -60,3 +60,31 @@ h3{
     position: relative;
     max-width: 70%;
 }                           /* ONLY New Arrivals block \\finish// */
+
+/* ONLY Best-prices block \\start// */
+.drum-set-background{
+    width: 100%;
+    height: 300%;
+    background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
+    z-index:-1;
+}
+img.products.promo {
+    background: size 10px;
+}
+
+.products{
+    background:black;
+    max-width: 250px;
+    background-size: auto;
+    margin:15px;
+  
+}
+
+.best-prices{
+    background:white;
+}
+.best-prices-block{
+    background:url(../img/z-design-imgs/background-promo.jpeg) ;/*потом сделать no-repeat*/
+    background-size: 100%;
+}
+/* ONLY Best-prices block \\finish// */
