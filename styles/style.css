@@ -25,13 +25,13 @@ body{
     max-height: 300px;
 }
 .mega-sale-day img{
-    position: fixed;
-    max-width: 500;
+    position: relative;
+    max-width: 30%;
     
 }
 .best-selling img{
-    position: fixed;
-    max-width: 550;
+    position: relative;
+    max-width: 40%;
     
 }
 .categories img{
@@ -40,6 +40,6 @@ body{
     max-height: 300px;
 }
 .promotion img{
-    position: absolute;
-    max-width: 700;
+    position: relative;
+    max-width: 70%;
 }
