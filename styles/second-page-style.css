@@ -13,13 +13,13 @@ body{
 }
 .gallery-of-product img{
     position: relative;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 420px;
+    max-height: 420px;
 }
 .gallery-carousel img{
     position: absolute;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100px;
+    max-height: 100px;
 }
 .green-text{
     color: #61A854;
