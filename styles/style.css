@@ -67,8 +67,12 @@ h4{
 .promotion img{
     position: relative;
     max-width: 70%;
-}                           /* ONLY New Arrivals block \\finish// */
-
+}
+.new-arival{
+    background:white;
+    z-index: 0;
+    text-align: center;      /* ONLY New Arrivals block \\finish// */
+}
 /* ONLY Best-prices block \\start// */
 section.drum-set-background{
     min-height: 800px;
