@@ -70,25 +70,46 @@ h4{
 }                           /* ONLY New Arrivals block \\finish// */
 
 /* ONLY Best-prices block \\start// */
+section.drum-set-background{
+    min-height: 800px;
+}
 .drum-set-background{
-    width: 100%;
-    height: 300%;
     background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
     z-index:-1;
 }
 .products{
     background:black;
+    z-index:1;
     max-width: 250px;
     background-size: auto;
-    margin:15px;
-  
+    margin:15px; 
 }
+.drum-set-background .button-shop-now button{
+    background-color:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans",sans-serif;
+    border-radius: 5px;
+    padding:15px 25px;
+    border: 1px solid;
+} 
+.drum-set-background .button-shop-now button:hover{
+    background-color:orange;
+} 
 .best-prices{
     background:white;
+    z-index: 0;
+
 }
-.best-prices-block{
-    background:url(../img/z-design-imgs/background-promo.jpeg) ;/*потом сделать no-repeat*/
-    background-size: 100%;
+.promo{
+    background:url(../img/z-design-imgs/background-promo.jpeg) no-repeat;/*потом сделать no-repeat*/
+    background-size:cover;
+    z-index:-2;
+}
+.product-best-prices a{
+    color:rgb(129, 125, 125);
+    font-size: 18px;
 }
 .product-best-prices img{         
     position: relative;
@@ -104,4 +125,26 @@ h4{
     color:darkgray;
     font-weight:600;
 }
-/* ONLY Best-prices block \\finish// */
+a:hover{
+    text-decoration: underline;
+}
+.product-best-prices .button-add-to-cart button{
+  background-color:black;
+  color:white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Work Sans",sans-serif;
+  border-radius: 5px;
+  padding:15px 25px;
+  border: 1px solid;
+}
+.product-best-prices .button-add-to-cart button:hover{
+    background-color:orange;
+}
+  .product-best-prices-nav a{
+    font-weight: 600;
+    color:rgb(182, 176, 176);
+}
+  .product-best-prices-nav a:hover{
+    color: rgb(87, 84, 84);
+}
