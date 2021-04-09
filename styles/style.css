@@ -1,0 +1,9 @@
+.divider-line-wraper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.divider-line{
+    height:2px;
+    width:13%;
+    background-color:#f8b803
+}
