@@ -13,6 +13,7 @@ h3{
 }
 .orange-text{
     color: #f8b803;
+    font-weight: bold;
 }
 .orange-dot{
     color: #f8b803;
@@ -25,7 +26,11 @@ h3{
     font-weight: bold;
 }
 .green-text{
-    color: #669904
+    color: #669904;
+    font-weight: bold;
+}
+.white-text{
+    color: white;
 }
 .divider-line-wraper{
     padding-top: 10px;
