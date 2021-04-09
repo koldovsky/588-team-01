@@ -8,6 +8,12 @@
     background-color:#f8b803
 }
 .carousel-store img{
+    position: relative;
     max-width: 400px;
+    max-width: 400px;
+}
+.mega-sale-day img{
+    position: relative;
+    max-width: 600;
     height: auto;
 }
