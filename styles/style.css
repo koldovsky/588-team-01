@@ -76,10 +76,6 @@ h4{
     background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
     z-index:-1;
 }
-img.products.promo {
-    background: size 10px;
-}
-
 .products{
     background:black;
     max-width: 250px;
@@ -87,12 +83,25 @@ img.products.promo {
     margin:15px;
   
 }
-
 .best-prices{
     background:white;
 }
 .best-prices-block{
-    background:url("../img/z-design-imgs/background-promo.jpeg");/*потом сделать no-repeat*/
+    background:url(../img/z-design-imgs/background-promo.jpeg) ;/*потом сделать no-repeat*/
     background-size: 100%;
+}
+.product-best-prices img{         
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+}
+.products img{
+    position: relative;
+    max-width: 200px;
+    max-height: 150px;
+}
+.strike-price{
+    color:darkgray;
+    font-weight:600;
 }
 /* ONLY Best-prices block \\finish// */
