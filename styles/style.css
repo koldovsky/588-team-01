@@ -7,3 +7,7 @@
     width:13%;
     background-color:#f8b803
 }
+.carousel-store img{
+    max-width: 400px;
+    height: auto;
+}
