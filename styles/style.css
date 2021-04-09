@@ -2,6 +2,15 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+h1{
+    font-size: 54px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+}
 .orange-text{
     color: #f8b803;
 }
@@ -27,12 +36,12 @@ body{
     width:13%;
     background-color:#f8b803
 }
-.carousel-store img{
+.carousel-store img{         /* ONLY New Arrivals block //start\\ */
     position: relative;
     max-width: 300px;
     max-height: 300px;
 }
-.mega-sale-day img{         /* ONLY New Arrivals block //start\\ */
+.mega-sale-day img{
     position: relative;
     max-width: 45%;
     
