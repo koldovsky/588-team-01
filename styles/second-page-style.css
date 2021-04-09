@@ -1,9 +1,9 @@
-body{
+body {
     color: #777777;
 }
-.second-page-hat{
-    background-color:#f8b803;
-    
+
+.second-page-hat {
+    background-color: #f8b803;
     height: 88px;
     position: static;
     top: 0px;
@@ -11,19 +11,23 @@ body{
     bottom: 0px;
     left: 0px;
 }
-.gallery-of-product img{
+
+.gallery-of-product img {
     position: relative;
     max-width: 420px;
     max-height: 420px;
 }
-.gallery-carousel img{
+
+.gallery-carousel img {
     position: absolute;
     max-width: 100px;
     max-height: 100px;
 }
-.green-text{
+
+.green-text {
     color: #61A854;
 }
-.black-text{
+
+.black-text {
     color: #242424;
 }

@@ -1,158 +1,196 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+body {
     font-family: 'Work Sans', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 54px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-h3{
+
+h3 {
     font-size: 28px;
 }
-h4{
+
+h4 {
     font-size: 24px;
 }
-.orange-text{
+
+.orange-text {
     color: #f8b803;
     font-weight: bold;
 }
-.orange-dot{
-    color: #f8b803;
-    font-size: larger;
-    font-weight: bold;
-}
-.orange-prices{
+
+.orange-dot {
     color: #f8b803;
     font-size: larger;
     font-weight: bold;
 }
-.green-text{
+
+.orange-prices {
+    color: #f8b803;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.green-text {
     color: #669904;
     font-weight: bold;
 }
-.white-text{
+
+.white-text {
     color: white;
 }
-.divider-line-wraper{
+
+.divider-line-wraper {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.divider-line{
-    height:2px;
-    width:13%;
-    background-color:#f8b803
+
+.divider-line {
+    height: 2px;
+    width: 13%;
+    background-color: #f8b803
 }
-.carousel-store img{         /* ONLY New Arrivals block //start\\ */
+
+
+/* ONLY New Arrivals block //start\\ */
+
+.carousel-store img {
     position: relative;
     max-width: 300px;
     max-height: 300px;
 }
-.mega-sale-day img{
+
+.mega-sale-day img {
     position: relative;
     max-width: 45%;
-    
 }
-.best-selling img{
+
+.best-selling img {
     position: relative;
     max-width: 50%;
-    
 }
-.categories img{
+
+.categories img {
     position: relative;
     max-width: 300px;
     max-height: 300px;
 }
-.promotion img{
+
+.promotion img {
     position: relative;
     max-width: 70%;
 }
-.new-arival{
-    background:white;
-    z-index: 0;
-    text-align: center;      /* ONLY New Arrivals block \\finish// */
-}
-/* ONLY Best-prices block \\start// */
-section.drum-set-background{
-    min-height: 800px;
-    padding:20px 800px 20px 20px;
-    
-}
-.drum-set-background{
-    background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
-    z-index:-1;
-}
-.products{
-    background:black;
-    z-index:1;
-    max-width: 250px;
-    background-size: auto;
-    margin:15px; 
-}
-.drum-set-background .button-shop-now button{
-    background-color:black;
-    color:white;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Work Sans",sans-serif;
-    border-radius: 5px;
-    padding:15px 25px;
-    border: 1px solid;
-} 
-.drum-set-background .button-shop-now button:hover{
-    background-color:orange;
-} 
-.best-prices{
-    background:white;
+
+.new-arival {
+    background: white;
     z-index: 0;
     text-align: center;
+}
 
+
+/* ONLY New Arrivals block \\finish// */
+
+
+/* ONLY Best-prices block \\start// */
+
+section.drum-set-background {
+    min-height: 800px;
+    padding: 20px 800px 20px 20px;
 }
-.promo{
-    background:url(../img/z-design-imgs/background-promo.jpeg) no-repeat;/*потом сделать no-repeat*/
-    background-size:cover;
-    z-index:-2;
-    padding:20px 20px 20px 800px;
+
+.drum-set-background {
+    background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
+    z-index: -1;
 }
-.product-best-prices a{
-    color:rgb(129, 125, 125);
+
+.products {
+    background: black;
+    z-index: 1;
+    max-width: 250px;
+    background-size: auto;
+    margin: 15px;
+}
+
+.drum-set-background .button-shop-now button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1px solid;
+}
+
+.drum-set-background .button-shop-now button:hover {
+    background-color: orange;
+}
+
+.best-prices {
+    background: white;
+    z-index: 0;
+    text-align: center;
+}
+
+.promo {
+    background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat;
+    /*потом сделать no-repeat*/
+    background-size: cover;
+    z-index: -2;
+    padding: 20px 20px 20px 800px;
+}
+
+.product-best-prices a {
+    color: rgb(129, 125, 125);
     font-size: 18px;
 }
-.product-best-prices img{         
+
+.product-best-prices img {
     position: relative;
     max-width: 300px;
     max-height: 300px;
 }
-.products img{
+
+.products img {
     position: relative;
     max-width: 200px;
     max-height: 150px;
 }
-.strike-price{
-    color:darkgray;
-    font-weight:600;
+
+.strike-price {
+    color: darkgray;
+    font-weight: 600;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.product-best-prices .button-add-to-cart button{
-  background-color:black;
-  color:white;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Work Sans",sans-serif;
-  border-radius: 5px;
-  padding:15px 25px;
-  border: 1px solid;
+
+.product-best-prices .button-add-to-cart button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1px solid;
 }
-.product-best-prices .button-add-to-cart button:hover{
-    background-color:orange;
+
+.product-best-prices .button-add-to-cart button:hover {
+    background-color: orange;
 }
-.product-best-prices-nav a{
+
+.product-best-prices-nav a {
     font-weight: 600;
-    color:rgb(182, 176, 176);
+    color: rgb(182, 176, 176);
 }
-.product-best-prices-nav a:hover{
+
+.product-best-prices-nav a:hover {
     color: rgb(87, 84, 84);
 }
