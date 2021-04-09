@@ -10,6 +10,11 @@ body{
     font-size: larger;
     font-weight: bold;
 }
+.orange-prices{
+    color: #f8b803;
+    font-size: larger;
+    font-weight: bold;
+}
 .divider-line-wraper{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -26,12 +31,12 @@ body{
 }
 .mega-sale-day img{
     position: relative;
-    max-width: 30%;
+    max-width: 45%;
     
 }
 .best-selling img{
     position: relative;
-    max-width: 40%;
+    max-width: 50%;
     
 }
 .categories img{
