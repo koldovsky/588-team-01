@@ -100,7 +100,6 @@ section.drum-set-background{
 .best-prices{
     background:white;
     z-index: 0;
-
 }
 .promo{
     background:url(../img/z-design-imgs/background-promo.jpeg) no-repeat;/*потом сделать no-repeat*/
@@ -129,14 +128,14 @@ a:hover{
     text-decoration: underline;
 }
 .product-best-prices .button-add-to-cart button{
-  background-color:black;
-  color:white;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: "Work Sans",sans-serif;
-  border-radius: 5px;
-  padding:15px 25px;
-  border: 1px solid;
+    background-color:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans",sans-serif;
+    border-radius: 5px;
+    padding:15px 25px;
+    border: 1px solid;
 }
 .product-best-prices .button-add-to-cart button:hover{
     background-color:orange;
