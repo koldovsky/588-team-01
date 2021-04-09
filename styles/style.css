@@ -89,7 +89,7 @@ img.products.promo {
     background:white;
 }
 .best-prices-block{
-    background:url(../img/z-design-imgs/background-promo.jpeg) ;/*потом сделать no-repeat*/
+    background:url("../img/z-design-imgs/background-promo.jpeg");/*потом сделать no-repeat*/
     background-size: 100%;
 }
 /* ONLY Best-prices block \\finish// */
