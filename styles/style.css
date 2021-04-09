@@ -27,15 +27,19 @@ body{
 .mega-sale-day img{
     position: relative;
     max-width: 500;
-    max-height: 400;
+    
 }
 .best-selling img{
     position: relative;
     max-width: 550;
-    max-height: 450;
+    
 }
 .categories img{
     position: relative;
     max-width: 300px;
     max-height: 300px;
+}
+.promotion img{
+    position: relative;
+    max-width: 700;
 }
