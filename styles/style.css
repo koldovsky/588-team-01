@@ -194,3 +194,44 @@ a:hover {
 .product-best-prices-nav a:hover {
     color: rgb(87, 84, 84);
 }
+
+/* Best-Selling Oleg Buno \\start// */
+
+.best-selling-instruments {
+    background: white;
+    z-index: 0;
+    font-family: "Work sans" sans-serif;
+    text-align: center;
+}
+
+carousel-store-b-sell{
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.product-name-nav{
+    font-size: 20px;
+    color: #777777;
+}
+
+
+.button-b-sell{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 25px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid;
+    
+}
+
+.button-b-sell:hover{
+    background-color: #f8b803 ;
+    transition: 0.4s;
+}
+
+.product-b-sell{
+
+}
+/* Best-Selling Oleg Buno \\finish// */
