@@ -262,6 +262,10 @@ carousel-store-b-sell{
     transition: 0.4s;
 }
 
+.white-text-b{
+    color: #ffffff;
+    background-color: black;
+}
 /*
 .product-b-sell{
 
