@@ -160,7 +160,6 @@ h4 {
 /* 
 .shop-now-button a {
     
-
 } */
 
 /* header styles end */
@@ -182,16 +181,16 @@ h4 {
     max-height: 300px;
 }
 
-.mega-sale-day img {
-    
+.mega-sale-day {
+    background: url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png") center no-repeat;
     position: relative;
-    max-width: 45%;
-    z-index: -1;
+    z-index: 0;
 }
 
-.best-selling img {
+.best-selling {
+    background: url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png") center no-repeat;
     position: relative;
-    max-width: 50%;
+    z-index: 0;
 }
 
 .categories img {
@@ -382,7 +381,6 @@ carousel-store-b-sell {
 
 /*
 .product-b-sell{
-
 }
 */
 
