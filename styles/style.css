@@ -168,10 +168,6 @@ section.drum-set-background {
 }
 
 .promo {
-    background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat;
-    /*потом сделать no-repeat*/
-    background-size: cover;
-    z-index: -2;
     padding: 20px 20px 20px 800px;
 }
 
