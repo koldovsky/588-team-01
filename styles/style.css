@@ -176,7 +176,7 @@ h4 {
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
-    background: white;
+    background-color: white;
     text-align: center;
 }
 
@@ -187,6 +187,7 @@ h4 {
 }
 
 .mega-sale-day img {
+    
     position: relative;
     max-width: 45%;
 }
