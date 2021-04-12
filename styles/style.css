@@ -92,6 +92,21 @@ h4 {
     text-align: center;
 }
 
+.specials .best-selling .button-buy-now{
+    background-color: white;
+    color: #242424;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1px solid;
+}
+
+.specials .best-selling .button-buy-now:hover {
+    background-color: #f8b803;
+    color: white;
+}
 
 /* ONLY New Arrivals block \\finish// */
 
@@ -171,7 +186,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.product-best-prices .button-add-to-cart button {
+.product-best-prices .button-add-to-cart button,
+.carousel-store .button-add-to-cart button {
     background-color: black;
     color: white;
     font-size: 14px;
@@ -182,7 +198,8 @@ a:hover {
     border: 1px solid;
 }
 
-.product-best-prices .button-add-to-cart button:hover {
+.product-best-prices .button-add-to-cart button:hover,
+.carousel-store .button-add-to-cart button:hover {
     background-color: orange;
 }
 
@@ -231,7 +248,10 @@ carousel-store-b-sell{
     transition: 0.4s;
 }
 
+/*
 .product-b-sell{
 
 }
+*/
+
 /* Best-Selling Oleg Buno \\finish// */
