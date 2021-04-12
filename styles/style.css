@@ -144,9 +144,12 @@ h4 {
     color: #fff;
 }
 
+
 .social-media img {
     width: 25px;
     height: 25px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
 }
 
 .shop-now {
@@ -191,6 +194,7 @@ h4 {
 /* 
 .shop-now-button a {
     
+
 } */
 
 /* header styles end */
@@ -212,16 +216,16 @@ h4 {
     max-height: 300px;
 }
 
-.mega-sale-day {
-    background: url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png") center no-repeat;
+.mega-sale-day img {
+    
     position: relative;
-    z-index: 0;
+    max-width: 45%;
+    z-index: -1;
 }
 
-.best-selling {
-    background: url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png") center no-repeat;
+.best-selling img {
     position: relative;
-    z-index: 0;
+    max-width: 50%;
 }
 
 .categories img {
@@ -401,6 +405,23 @@ carousel-store-b-sell {
 }
 
 .button-b-sell:hover {
+    background-color: #f8b803;
+    transition: 0.4s;
+}
+
+.white-text-b {
+    color: #ffffff;
+    background-color: black;
+}
+
+/*
+.product-b-sell{
+
+}
+*/
+
+/* Best-Selling Oleg Buno \\finish// */
+{
     background-color: #f8b803;
     transition: 0.4s;
 }
