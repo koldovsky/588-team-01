@@ -172,7 +172,7 @@ h4 {
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
-    background: white;
+    background-color: white;
     text-align: center;
 }
 
@@ -186,7 +186,6 @@ h4 {
     
     position: relative;
     max-width: 45%;
-    z-index: -1;
 }
 
 .best-selling img {
