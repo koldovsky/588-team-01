@@ -2,6 +2,9 @@
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
+    background-size:cover;
+    z-index:-10;
 }
 
 h1 {
