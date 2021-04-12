@@ -2,9 +2,8 @@
 
 :root {
     /* GENERAL COLORS START */
-    --header-color: rgb(248, 184, 3);
-
-/* GENERAL COLORS END */
+    --header-color: rgb(248, 184, 3);git
+    /* GENERAL COLORS END */
 }
 
 body {
@@ -33,6 +32,7 @@ h4 {
 
 .orange-text, .orange-dot, .orange-prices {
     color: #f8b803;
+
     font-weight: bold;
 }
 
@@ -64,9 +64,19 @@ h4 {
     display: flex;
 }
 
+.align-items-start {
+    align-items: flex-start;
+}
+
 .align-items-center {
     align-items: center;
 }
+
+.align-items-end {
+    /* align-items: flex-end; */
+    align-content: flex-end;
+}
+
 
 .justify-content-center {
     justify-content: center;
@@ -134,6 +144,11 @@ h4 {
     color: #fff;
 }
 
+.social-media img {
+    width: 25px;
+    height: 25px;
+}
+
 .shop-now {
     margin-bottom: 17px;
 }
@@ -149,6 +164,12 @@ h4 {
 .home-info {
     text-align: center;
 }
+
+.home-info-item img {
+    width: 50px;
+    height: 50px;
+}
+
 
 .home-info-item {
     border: 0.5px solid grey;
