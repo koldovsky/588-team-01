@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* GENERAL COLORS START */
+    --header-color: rgb(248, 184, 3);
+
+/* GENERAL COLORS END */
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
@@ -47,6 +55,8 @@ h4 {
     width: 13%;
     background-color: #f8b803
 }
+
+
 
 /* GENERAL CLASSES START  */
 
@@ -117,7 +127,7 @@ h4 {
 .main-menu {
     font-size: 14px;
     font-weight: bold;
-    background-color: rgb(248, 184, 3);
+    background-color: var(--header-color);
 }
 
 .main-menu a {
