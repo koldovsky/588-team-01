@@ -19,6 +19,7 @@ h4 {
     font-size: 24px;
 }
 
+
 .orange-text,
 .orange-dot,
 .orange-prices {
@@ -273,3 +274,146 @@ carousel-store-b-sell{
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+/* On-sale Oleh Koval START */
+/* On-sale Oleh Koval END */
+/* FOOTER Oleh Koval START */
+.orange-before-footer {
+    background-color: #f8b803;
+    padding: 15px;
+    color: #FFF;
+    font-size: 21px;
+}
+.orange-before-footer h2{
+    background-color: #f8b803;
+    padding: 15px;
+    color: #FFF;
+    font-size: 21px;
+}
+.smaller-text {
+    font-size: 17px;
+}
+.gray-text {
+    color: #FFFFFFB5;
+    font-size: 17px;
+}
+.button {
+    padding: 16px 24px;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 1.2;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+.button.black {
+    background-color: #242424;
+    color: #fff;
+}
+.button.black:hover {
+    background-color: #fff;
+    color: #242424;
+    text-decoration: none;
+}
+.button.black-orange {
+    background-color: #242424;
+    color: #fff;
+}
+.button.black-orange:hover {
+    background-color: #f8b803;
+    color: #fff;
+    text-decoration: none;
+}
+.button.white-orange {
+    background-color: #fff;
+    color: #242424;
+}
+.button.white-orange:hover {
+    background-color: #f8b803;
+    color: #fff;
+    text-decoration: none;
+}
+.button.orange {
+    background-color: #f8b803;
+    color: #fff;
+}
+.button.orange:hover {
+    background-color: #fff;
+    color: #242424;
+    text-decoration: none;
+}
+footer {
+    background-color: #242424;
+}
+.footer-text {
+    color: #FFFFFF6B;
+}
+.tellphone a{
+    color: #f8b803;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tellphone a:hover {
+    text-decoration: underline;
+}
+.ouremail a{
+    color: #f8b803;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ouremail a:hover {
+    text-decoration: underline;
+}
+.emailform {
+    background-color:rgba(89, 89, 89, 0.24);
+    border-color: #fafafa;
+    color: #fff;
+    padding: 16px 24px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.signup {
+    background-color: #f8b803;
+    color: white;
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1px solid;
+}
+.signup:hover {
+    background-color: white ;
+    color: black;
+}
+footer h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+footer a {
+    color: #FFFFFF6B;
+    font-size: 15px;
+}
+footer a:hover {
+    color: #f8b803;
+}
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1E1E1E ;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-bottom-text {
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+/* FOOTER Oleh Koval END */
