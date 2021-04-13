@@ -2,7 +2,7 @@
 
 :root {
     /* GENERAL COLORS START */
-    --header-color: rgb(248, 184, 3);
+    --header-color: #f8b803;
     /* GENERAL COLORS END */
 }
 
@@ -45,14 +45,17 @@ h4 {
 }
 
 .divider-line-wraper {
+    display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
 }
 
 .divider-line {
     height: 2px;
-    width: 13%;
+    width: 6%;
     background-color: #f8b803;
+    min-width: 3%
 }
 
 
@@ -390,30 +393,57 @@ h4 {
     max-height: 300px;
 }
 
-.mega-sale-day img {
-    
-    position: relative;
-    max-width: 45%;
-    z-index: -1;
+.specials {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
-.best-selling img {
-    position: relative;
-    max-width: 50%;
+.mega-sale-day {
+    grid-row: 1;
+    background: no-repeat url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png");
+    background-size: cover;
 }
 
-.categories img {
-    position: relative;
-    max-width: 300px;
-    max-height: 300px;
+.best-selling {
+    grid-row: 2;
+    background: no-repeat url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png");
+    background-size: cover;
 }
 
-.promotion img {
-    position: relative;
-    max-width: 70%;
+.categories {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: start;
+
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button, .new-arrivals .specials .best-selling .button-buy-now, .new-arrivals .promotion .button-browse-instruments {
+.subcategory-guitars {
+    background: no-repeat url("../img/z-design-imgs/background-guitars-category.png");
+    background-size: cover;
+}
+
+.subcategory-drums {
+    background: no-repeat url("../img/z-design-imgs/background-drums-category.png");
+    background-size: cover;
+}
+
+.subcategory-orchestric {
+    background: no-repeat url("../img/z-design-imgs/background-orchestrics-category.png");
+    background-size: cover;
+}
+
+.promotion {
+    background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
+    background-size: cover;
+
+}
+
+.new-arrivals .carousel-store .button-add-to-cart button,
+.new-arrivals .specials .best-selling .button-buy-now,
+.new-arrivals .promotion .button-browse-instruments {
     font-size: 14px;
     font-weight: 500;
     border-radius: 5px;
@@ -440,7 +470,8 @@ h4 {
     text-decoration: none;
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button:hover, .new-arrivals .specials .best-selling .button-buy-now:hover {
+.new-arrivals .carousel-store .button-add-to-cart button:hover,
+ .new-arrivals .specials .best-selling .button-buy-now:hover {
     background-color: #f8b803;
     color: white;
     text-decoration: none;
@@ -595,11 +626,12 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+/*
 {
     background-color: #f8b803;
     transition: 0.4s;
 }
-
+*/
 .white-text-b {
     color: #ffffff;
     background-color: black;
