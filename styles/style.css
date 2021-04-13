@@ -460,9 +460,27 @@ h4 {
 /* ONLY Best-prices block \\start// */
 
 section.drum-set-background {
-    min-height: 800px;
-    padding: 20px 800px 20px 20px;
+    background-color: #fff;
+    padding:100px;
 }
+
+.drum-set-background-box {
+    display:grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-gap: 10px 20px;
+    padding:50px;
+    background-color: #fafafa;
+
+}
+.drum-set-text{
+    text-align: left;
+}
+
+.drum-set-background-box img{
+    max-width:427px;
+    max-height:384px;
+}
+
 
 .products {
     background: black;
