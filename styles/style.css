@@ -3,6 +3,12 @@
 :root {
     /* GENERAL COLORS START */
     --header-color: #f8b803;
+<<<<<<< HEAD
+=======
+    --general-text-color: #777777;
+    --dark-text-color: #242424;
+    --light-text-color: #ffffff;
+>>>>>>> 2fc13d5775589f45b96fb84dd86f9634dcce8b17
     /* GENERAL COLORS END */
 }
 
@@ -11,7 +17,7 @@ body {
     text-align: center;
     background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
     background-size:cover;
-    z-index: -10;
+    z-index: -1;
 }
 
 h1 {
@@ -488,14 +494,27 @@ h4 {
 /* ONLY Best-prices block \\start// */
 
 section.drum-set-background {
-    min-height: 800px;
-    padding: 20px 800px 20px 20px;
+    background-color: #fff;
+    padding:100px;
 }
 
-.drum-set-background {
-    background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
-    z-index: -1;
+.drum-set-background-box {
+    display:grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-gap: 10px 20px;
+    padding:50px;
+    background-color: #fafafa;
+
 }
+.drum-set-text{
+    text-align: left;
+}
+
+.drum-set-background-box img{
+    max-width:427px;
+    max-height:384px;
+}
+
 
 .products {
     background: black;
@@ -626,8 +645,12 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+<<<<<<< HEAD
 /*
 {
+=======
+/*{
+>>>>>>> 2fc13d5775589f45b96fb84dd86f9634dcce8b17
     background-color: #f8b803;
     transition: 0.4s;
 }
@@ -643,3 +666,82 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+/* Oleh Koval part Start*/
+.button {
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 15px;
+}
+.signup {
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.signup:hover {
+    background-color: #fff;
+    color: #1E1E1E;
+}
+#footer {
+    background-color: #242424;
+}
+.footer-top-columns {
+    justify-content: space-around;
+}
+.footer-top-column {
+    flex-direction: column;
+    justify-content: space-between;
+    color:#757575;
+}
+.footer-top-column a {
+    color: #F8B803;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-top-column a:hover {
+    color: #F8B803;
+
+}
+.footer-tellphone {
+    color: #F8B803;
+    font-size: 20px;
+    font-weight: bold;
+}.footer-tellphone:hover {
+    color: #F8B803;
+}
+.footer-email {
+    color: #F8B803;
+    font-size: 20px;
+    font-weight: bold;
+}.footer-email:hover {
+    color: #F8B803;
+}
+#footer h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-columns {
+    justify-content: space-around;
+}
+.footer-column {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-column a {
+    color: #FFFFFF6B;
+    font-size: 15px;
+}
+.footer-column a:hover {
+    color: #F8B803;
+
+}
+.footer-bottom  {
+    background-color: #1E1E1E;
+    color: #fff;
+    font-size: 14px;
+    justify-content: space-around;
+    padding: 15px;
+    margin: -5px -10px 0px;
+}
+/* Oleh Koval part END*/
