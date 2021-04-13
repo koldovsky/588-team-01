@@ -464,11 +464,6 @@ section.drum-set-background {
     padding: 20px 800px 20px 20px;
 }
 
-.drum-set-background {
-    background: url("../img/z-design-imgs/background-banner-drum-set.jpeg") center no-repeat;
-    z-index: -1;
-}
-
 .products {
     background: black;
     z-index: 1;
