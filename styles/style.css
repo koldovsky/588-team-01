@@ -2,7 +2,10 @@
 
 :root {
     /* GENERAL COLORS START */
-    --header-color: rgb(248, 184, 3);
+    --header-color: #f8b803;
+    --general-text-color: #777777;
+    --dark-text-color: #242424;
+    --light-text-color: #ffffff;
     /* GENERAL COLORS END */
 }
 
@@ -11,7 +14,7 @@ body {
     text-align: center;
     background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
     background-size:cover;
-    z-index: -10;
+    z-index: -1;
 }
 
 h1 {
@@ -595,11 +598,11 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
-{
+/*{
     background-color: #f8b803;
     transition: 0.4s;
 }
-
+*/
 .white-text-b {
     color: #ffffff;
     background-color: black;
