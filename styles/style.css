@@ -628,13 +628,25 @@ carousel-store-b-sell {
 
 /* Best-Selling Oleg Buno \\finish// */
 /* Oleh Koval part Start*/
+.signup-offer {
+    background-color: #f8b803;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .button {
     font-size: 14px;
     padding: 15px 25px;
     border-radius: 5px;
-    border: 1px solid;
+    border: 0px solid;
     margin: 15px;
+    font-weight: bold;
 }
+
 .signup {
     background-color: #1E1E1E;
     color: #fff;
@@ -642,17 +654,36 @@ carousel-store-b-sell {
 .signup:hover {
     background-color: #fff;
     color: #1E1E1E;
+    text-decoration: none;
 }
-#footer {
+.signup-footer {
+    background-color: #f8b803;
+    color: #fff;
+}
+.signup-footer:hover {
+    background-color: #fff;
+    color: #1E1E1E;
+    text-decoration: none;
+}
+.line {
+    height: 1px;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 15px 0;
+}
+.footer-top {
     background-color: #242424;
+    padding: ;
 }
 .footer-top-columns {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer-top-column {
     flex-direction: column;
     justify-content: space-between;
     color:#757575;
+    flex: 1;
+    text-align: left;
 }
 .footer-top-column a {
     color: #F8B803;
@@ -683,11 +714,12 @@ carousel-store-b-sell {
     font-weight: bold;
 }
 .footer-columns {
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 .footer-column {
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
 }
 .footer-column a {
     color: #FFFFFF6B;
