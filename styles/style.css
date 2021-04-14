@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root {
     /* GENERAL COLORS START */
     --header-color: #f8b803;
@@ -13,7 +12,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
     background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
-    background-size:cover;
+    background-size: cover;
     z-index: -1;
 }
 
@@ -48,17 +47,18 @@ h4 {
 }
 
 .divider-line-wraper {
+    display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
 }
 
 .divider-line {
     height: 2px;
-    width: 13%;
+    width: 6%;
     background-color: #f8b803;
+    min-width: 3%
 }
-
-
 
 /* GENERAL CLASSES START  */
 
@@ -106,7 +106,6 @@ h4 {
     justify-content: space-evenly;
 }
 
-
 /* GENERAL CLASSES END */
 
 /* Header styles start */
@@ -129,7 +128,6 @@ h4 {
     max-width: 1220px;
     margin: 0 auto;
 }
-
 
 .info-header a {
     font-size: 14px;
@@ -192,7 +190,7 @@ h4 {
     max-width: 1220px;
     min-width: 1200px;
     /* padding: 0 10px; */
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .menu-item {
@@ -210,7 +208,6 @@ h4 {
 .main-menu a {
     color: #fff;
 }
-
 
 .social-media img {
     width: 25px;
@@ -240,7 +237,7 @@ h4 {
 }
 
 .shop-now-button {
-    background-color:rgb(248, 184, 3);
+    background-color: rgb(248, 184, 3);
     border-radius: 4px;
     color: #fff;
     font-size: 16px;
@@ -359,7 +356,7 @@ h4 {
 
 .offer-new {
     font-size: 40px;
-    font-weight: 600; 
+    font-weight: 600;
     margin-top: 10px;
     color: black;
 }
@@ -373,50 +370,93 @@ h4 {
     margin-top: 25px;
 }
 
-
 /* header styles end */
-
 
 /* ONLY New Arrivals block //start\\ */
 
 .new-arrivals {
-    width: 100%;
-    padding-left: 24px;
-    padding-right: 24px;
-    background: white;
+    margin: 0;
+    max-width: 100%;
+    background: var(--light-text-color);
+    ;
     text-align: center;
+    font-size: 100%;
+}
+
+.carousel-store {
+    width: 100%;
+}
+
+.carousel-store h4 {
+    font-size: 100%;
 }
 
 .carousel-store img {
     position: relative;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 60%;
+    height: auto;
 }
 
-.mega-sale-day img {
-    
-    position: relative;
-    max-width: 45%;
-    z-index: -1;
+.new-arrivals-footer {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
 }
 
-.best-selling img {
-    position: relative;
-    max-width: 50%;
+.specials {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
-.categories img {
-    position: relative;
-    max-width: 300px;
-    max-height: 300px;
+.mega-sale-day {
+    grid-row: 1;
+    background: no-repeat url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png");
+    background-size: cover;
 }
 
-.promotion img {
-    position: relative;
-    max-width: 70%;
+.best-selling {
+    grid-row: 2;
+    background: no-repeat url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png");
+    background-size: cover;
+    color: var(--light-text-color);
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button, .new-arrivals .specials .best-selling .button-buy-now, .new-arrivals .promotion .button-browse-instruments {
+.categories {
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: start;
+    width: 100%;
+}
+
+.subcategory-guitars {
+    background: no-repeat url("../img/z-design-imgs/background-guitars-category.png");
+    background-size: cover;
+}
+
+.subcategory-drums {
+    background: no-repeat url("../img/z-design-imgs/background-drums-category.png");
+    background-size: cover;
+}
+
+.subcategory-orchestric {
+    background: no-repeat url("../img/z-design-imgs/background-orchestrics-category.png");
+    background-size: cover;
+}
+
+.promotion {
+    background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
+    background-size: cover;
+    color: var(--light-text-color);
+}
+
+.new-arrivals .carousel-store .button-add-to-cart button,
+.new-arrivals .specials .best-selling .button-buy-now,
+.new-arrivals .promotion .button-browse-instruments {
     font-size: 14px;
     font-weight: 500;
     border-radius: 5px;
@@ -426,32 +466,33 @@ h4 {
 }
 
 .new-arrivals .carousel-store .button-add-to-cart button {
-    background-color: #242424;
-    color: white;
+    background-color: var(--dark-text-color);
+    color: var(--light-text-color);
     text-decoration: none;
 }
 
 .new-arrivals .specials .best-selling .button-buy-now {
-    background-color: white;
-    color: #242424;
+    background-color: var(--light-text-color);
+    color: var(--dark-text-color);
     text-decoration: none;
 }
 
 .new-arrivals .promotion .button-browse-instruments {
-    background-color: #f8b803;
-    color: white;
+    background-color: var(--header-color);
+    color: var(--light-text-color);
     text-decoration: none;
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button:hover, .new-arrivals .specials .best-selling .button-buy-now:hover {
-    background-color: #f8b803;
-    color: white;
+.new-arrivals .carousel-store .button-add-to-cart button:hover,
+.new-arrivals .specials .best-selling .button-buy-now:hover {
+    background-color: var(--header-color);
+    color: var(--light-text-color);
     text-decoration: none;
 }
 
 .new-arrivals .promotion .button-browse-instruments:hover {
-    background-color: white;
-    color: #242424;
+    background-color: var(--light-text-color);
+    color: var(--dark-text-color);
     text-decoration: none;
 }
 
@@ -461,26 +502,25 @@ h4 {
 
 section.drum-set-background {
     background-color: #fff;
-    padding:100px;
+    padding: 100px;
 }
 
 .drum-set-background-box {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 200px 1fr;
     grid-gap: 10px 20px;
-    padding:50px;
+    padding: 50px;
     background-color: #fafafa;
-
 }
-.drum-set-text{
+
+.drum-set-text {
     text-align: left;
 }
 
-.drum-set-background-box img{
-    max-width:427px;
-    max-height:384px;
+.drum-set-background-box img {
+    max-width: 427px;
+    max-height: 384px;
 }
-
 
 .products {
     background: black;
@@ -611,11 +651,15 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+
+/*
+{
 /*{
     background-color: #f8b803;
     transition: 0.4s;
 }
 */
+
 .white-text-b {
     color: #ffffff;
     background-color: black;
@@ -627,7 +671,18 @@ carousel-store-b-sell {
 */
 
 /* Best-Selling Oleg Buno \\finish// */
+
 /* Oleh Koval part Start*/
+.on-sale {
+    border: 2px solid #fafafa;
+}
+.on-sale-block {
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
 .signup-offer {
     background-color: #f8b803;
 }
@@ -638,6 +693,31 @@ carousel-store-b-sell {
     padding-left: 15px;
     padding-right: 15px;
 }
+.product-name-link {
+    font-size: 20px;
+    color: #777;
+}
+.orchestric-sale-week {
+    background: no-repeat url(../img/special-offer-promotion-sale-week/orchestric-sale-week-background.webp);
+    text-align: left;
+    background-size: cover;
+}
+.special-offer {
+    background: no-repeat url(../img/special-offer-promotion-sale-week/special-offer-background.webp);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50%;
+    text-align: left;
+}
+.promotion-exclusive {
+    background: no-repeat url(../img/special-offer-promotion-sale-week/promotion-exlusive-background.webp);
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50%;
+    text-align: left;
+}
 .button {
     font-size: 14px;
     padding: 15px 25px;
@@ -646,11 +726,20 @@ carousel-store-b-sell {
     margin: 15px;
     font-weight: bold;
 }
-
+.white-orange {
+    background-color: #fff;
+    color: #1e1e1e;
+}
+.white-orange:hover {
+    background-color:#f8b803;
+    color: #fff;
+    text-decoration: none;
+}
 .signup {
     background-color: #1E1E1E;
     color: #fff;
 }
+
 .signup:hover {
     background-color: #fff;
     color: #1E1E1E;
@@ -671,65 +760,68 @@ carousel-store-b-sell {
     background-color: rgba(255, 255, 255, 0.05);
     margin: 15px 0;
 }
-.footer-top {
+#footer {
     background-color: #242424;
-    padding: ;
 }
+
 .footer-top-columns {
     justify-content: space-between;
 }
+
 .footer-top-column {
     flex-direction: column;
     justify-content: space-between;
     color:#757575;
     flex: 1;
     text-align: left;
+    color: #757575;
 }
+
 .footer-top-column a {
     color: #F8B803;
     font-size: 20px;
     font-weight: bold;
 }
+
 .footer-top-column a:hover {
     color: #F8B803;
+}
 
-}
-.footer-tellphone {
+.footer-tellphone-email {
     color: #F8B803;
     font-size: 20px;
     font-weight: bold;
-}.footer-tellphone:hover {
+}
+
+.footer-tellphone-email:hover {
     color: #F8B803;
 }
-.footer-email {
-    color: #F8B803;
-    font-size: 20px;
-    font-weight: bold;
-}.footer-email:hover {
-    color: #F8B803;
-}
+
 #footer h3 {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
 }
 .footer-columns {
-    /*justify-content: space-around;*/
+    justify-content: space-between;
+
 }
 .footer-column {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
 }
+
 .footer-column a {
     color: #FFFFFF6B;
     font-size: 15px;
 }
+
 .footer-column a:hover {
     color: #F8B803;
-
 }
-.footer-bottom  {
+
+.footer-bottom {
     background-color: #1E1E1E;
     color: #fff;
     font-size: 14px;
@@ -737,4 +829,5 @@ carousel-store-b-sell {
     padding: 15px;
     margin: -5px -10px 0px;
 }
+
 /* Oleh Koval part END*/
