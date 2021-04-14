@@ -386,7 +386,7 @@ h4 {
 /* ONLY New Arrivals block //start\\ */
 
 .new-arrivals {
-    width: 100%;
+    max-width: 425px;
     padding-left: 24px;
     padding-right: 24px;
     background: white;
