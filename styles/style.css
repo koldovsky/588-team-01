@@ -500,9 +500,9 @@ h4 {
 /* ONLY New Arrivals block \\finish// */
 
 /* ONLY Best-prices block \\start// */
-/*.best-prices .divider-line-wraper{
+.best-prices .divider-line-wraper{
     padding-left: 46%;
-}*/
+}
 
 .best-prices {
     background: #ffffff;
