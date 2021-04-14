@@ -499,60 +499,27 @@ h4 {
 /* ONLY New Arrivals block \\finish// */
 
 /* ONLY Best-prices block \\start// */
-
-section.drum-set-background {
-    background-color: #fff;
-    padding: 100px;
-}
-
-.drum-set-background-box {
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
-    grid-gap: 10px 20px;
-    padding: 50px;
-    background-color: #fafafa;
-}
-
-.drum-set-text {
-    text-align: left;
-}
-
-.drum-set-background-box img {
-    max-width: 427px;
-    max-height: 384px;
-}
-
-.products {
-    background: black;
-    z-index: 1;
-    max-width: 250px;
-    background-size: auto;
-    margin: 15px;
-}
-
-.drum-set-background .button-shop-now button {
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Work Sans", sans-serif;
-    border-radius: 5px;
-    padding: 15px 25px;
-    border: 1px solid;
-}
-
-.drum-set-background .button-shop-now button:hover {
-    background-color: orange;
+.best-prices .divider-line-wraper{
+    padding-left: 46%;
 }
 
 .best-prices {
-    background: white;
+    background: #ffffff;
     z-index: 0;
     text-align: center;
+    padding:100px 50px 50px 50px;
+    
 }
 
-.promo {
-    padding: 20px 20px 20px 800px;
+.product-best-prices{
+    padding: 50px;
+    text-align: left;
+}
+
+.product-best-prices p{
+    min-height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .product-best-prices a {
@@ -566,22 +533,75 @@ section.drum-set-background {
     max-height: 300px;
 }
 
-.products img {
-    position: relative;
-    max-width: 200px;
-    max-height: 150px;
+.best-prices-electric-guitar, .best-prices-acoustic-guitar, .best-prices-drums,.best-prices-orchestric,.best-prices-other {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.best-prices-block a:hover {
+    text-decoration: underline;
+}
+
+.product-best-prices .button-add-to-cart button {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    padding: 15px 25px;
+    border: 1px solid;
+}
+
+.product-best-prices .button-add-to-cart button:hover {
+    background-color: #f8b803;
+}
+
+.product-best-prices-nav{
+    padding-top:50px;
+}
+
+.product-best-prices-nav a {
+    font-weight: 600;
+    color: rgb(182, 176, 176);
+    padding:0px 10px;
+}
+
+.product-best-prices-nav a:hover {
+    color: rgb(87, 84, 84);
+}
+section.drum-set-background {
+    background-color: #fff;
+    padding:100px;
+}
+
+.drum-set-background-box {
+    display:grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-gap: 10px 20px;
+    padding:50px;
+    background-color: #fafafa;
+
 }
 
 .strike-price {
     color: darkgray;
     font-weight: 600;
+    font-size: 18px;
 }
 
-a:hover {
-    text-decoration: underline;
+.drum-set-text{
+    text-align: left;
 }
 
-.product-best-prices .button-add-to-cart button {
+.drum-set-background-box img{
+    max-width:427px;
+    max-height:384px;
+}
+
+.drum-set-background-box .button-shop-now button {
     background-color: black;
     color: white;
     font-size: 14px;
@@ -592,18 +612,37 @@ a:hover {
     border: 1px solid;
 }
 
-.product-best-prices .button-add-to-cart button:hover {
-    background-color: orange;
+.drum-set-background-box .button-shop-now button:hover {
+    background-color: #f8b803;
 }
 
-.product-best-prices-nav a {
-    font-weight: 600;
-    color: rgb(182, 176, 176);
+.products-promo {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px;
+    padding:50px 50px 50px 0px;
+    text-align: left;
+
 }
 
-.product-best-prices-nav a:hover {
-    color: rgb(87, 84, 84);
+.snare-drums-promo, .drums-bw-promo{
+    background-color: #242424;
+    padding: 30px;
+    line-height: 40px;
 }
+
+.promo {
+    margin-top:100px;
+    padding: 20px 20px 20px 800px;
+    text-align: left;
+}
+
+.products-promo img {
+    max-width: 218px;
+    max-height: 158px;
+    margin:40px 0px;
+}
+/*promo finish*/
 
 /* Best-Selling Oleg Buno \\start// */
 
