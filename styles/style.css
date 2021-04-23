@@ -1,114 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-    /* GENERAL COLORS START */
-    --header-color: #f8b803;
-    --general-text-color: #777777;
-    --dark-text-color: #242424;
-    --light-text-color: #ffffff;
-    /* GENERAL COLORS END */
+  /* GENERAL COLORS START */
+  --header-color: #f8b803;
+  --general-text-color: #777777;
+  --dark-text-color: #242424;
+  --light-text-color: #ffffff;
+  /* GENERAL COLORS END */
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-    background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
-    background-size: cover;
-    z-index: -1;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  background: url(../img/z-design-imgs/background-promo.jpeg) no-repeat fixed;
+  background-size: cover;
+  z-index: -1;
 }
 
 h1 {
-    font-size: 54px;
+  font-size: 54px;
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 h4 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-.orange-text, .orange-dot, .orange-prices {
-    color: #f8b803;
-    font-weight: bold;
+.orange-text,
+.orange-dot,
+.orange-prices {
+  color: #f8b803;
+  font-weight: bold;
 }
 
 .green-text {
-    color: #669904;
-    font-weight: bold;
+  color: #669904;
+  font-weight: bold;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .divider-line-wraper {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  width: 100%;
 }
 
 .divider-line {
-    height: 2px;
-    width: 6%;
-    background-color: #f8b803;
-    min-width: 3%
+  height: 2px;
+  width: 6%;
+  background-color: #f8b803;
+  min-width: 3%;
 }
 
 /* GENERAL CLASSES START  */
 
 .text-align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .align-items-start {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .align-items-end {
-    align-content: flex-end;
+  align-content: flex-end;
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-start {
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .justify-content-spacebetween {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-content-spacearound {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-content-end {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .justify-content-even {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
-.flex-direction-column{
-    flex-direction: column;
+.flex-direction-column {
+  flex-direction: column;
 }
 
 /* GENERAL CLASSES END */
@@ -116,228 +118,228 @@ h4 {
 /* Header styles start */
 
 .header-text a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .info-header {
-    background-color: #fafafa;
-    padding: 5px 40px;
-    color: rgb(117, 117, 117);
-    font-size: 14px;
-    height: 42px;
-    font-weight: 500;
+  background-color: #fafafa;
+  padding: 5px 40px;
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  height: 42px;
+  font-weight: 500;
 }
 
 .info-header-container {
-    min-width: 1200px;
-    max-width: 1220px;
-    margin: 0 auto;
+  min-width: 1200px;
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 .info-header a {
-    font-size: 14px;
-    color: rgb(117, 117, 117);
+  font-size: 14px;
+  color: rgb(117, 117, 117);
 }
 
 .header-contact-info a {
-    margin-top: 5px;
-    margin-right: 10px;
-    /* margin-left: 10px; */
+  margin-top: 5px;
+  margin-right: 10px;
+  /* margin-left: 10px; */
 }
 
 .home-page {
-    color: rgb(36, 36, 36);
-    font-size: 54px;
-    width: 570px;
-    text-align: start;
+  color: rgb(36, 36, 36);
+  font-size: 54px;
+  width: 570px;
+  text-align: start;
 }
 
 .main-section-container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .home-page p:first-child {
-    font-size: 12px;
-    font-weight: bold;
-    color: rgb(248, 184, 3);
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(248, 184, 3);
 }
 
 .home-page span {
-    color: rgb(248, 184, 3);
+  color: rgb(248, 184, 3);
 }
 
 .home-page p span:last-child {
-    color: rgb(102, 153, 4);
-    font-size: 20px;
-    font-weight: bold;
+  color: rgb(102, 153, 4);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .home-page p {
-    color: rgb(119, 119, 119);
-    font-size: 16px;
+  color: rgb(119, 119, 119);
+  font-size: 16px;
 }
 
 .home-page h2 {
-    margin-top: 10px;
-    font-size: 54px;
-    font-weight: 600;
+  margin-top: 10px;
+  font-size: 54px;
+  font-weight: 600;
 }
 
 .main-menu {
-    font-size: 14px;
-    font-weight: bold;
-    background-color: var(--header-color);
-    height: 67.626px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: var(--header-color);
+  height: 67.626px;
 }
 
 .menu-container {
-    max-width: 1220px;
-    min-width: 1200px;
-    /* padding: 0 10px; */
-    margin: 0 auto;
+  max-width: 1220px;
+  min-width: 1200px;
+  /* padding: 0 10px; */
+  margin: 0 auto;
 }
 
 .menu-item {
-    margin: 12.5px 20px;
+  margin: 12.5px 20px;
 }
 
 .menu-item a:hover {
-    color: black;
+  color: black;
 }
 
 .menu-links {
-    margin-left: 200px;
+  margin-left: 200px;
 }
 
 .main-menu a {
-    color: #fff;
+  color: #fff;
 }
 
 .social-media img {
-    width: 25px;
-    height: 25px;
-    margin-right: 7.5px;
-    margin-left: 7.5px;
+  width: 25px;
+  height: 25px;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
 }
 
 .shop-now {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .shop-now .shop-now-button {
-    font-size: 14px;
-    font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .home-page .shop-now a:hover {
-    background-color: #000;
-    text-decoration: none;
+  background-color: #000;
+  text-decoration: none;
 }
 
 .promo-item-inner .shop-now a:hover {
-    background-color: #fff;
-    text-decoration: none;
-    color: black;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
 }
 
 .shop-now-button {
-    background-color: rgb(248, 184, 3);
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    padding: 15px 25px;
+  background-color: rgb(248, 184, 3);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 25px;
 }
 
 .home-info {
-    text-align: center;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 20px;
+  text-align: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .home-info-item img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .home-info-item {
-    border: 2px solid #fafafa;
-    font-size: 16px;
-    line-height: 1.5;
+  border: 2px solid #fafafa;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .home-info-item p:nth-child(2n) {
-    font-weight: bold;
-    font-size: 24px;
-    font-weight: 500;
-    padding: 0px 15;
+  font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 0px 15;
 }
 
 .home-info-item p:last-child {
-    color: grey;
-    font-size: 14px;
+  color: grey;
+  font-size: 14px;
 }
 
 .home-info span {
-    color: #f8b803;
+  color: #f8b803;
 }
 
 .home-info-inner {
-    padding: 30px 20px;
+  padding: 30px 20px;
 }
 
 .main-section {
-    padding-top: 210px;
-    padding-bottom: 210px;
-    background: no-repeat url(../img/header-background.jpg);
-    background-size: cover;
-    background-position: 100%;
-    margin: 0 auto;
+  padding-top: 210px;
+  padding-bottom: 210px;
+  background: no-repeat url(../img/header-background.jpg);
+  background-size: cover;
+  background-position: 100%;
+  margin: 0 auto;
 }
 
 .general-info-section {
-    background: no-repeat white;
-    padding-top: 60px;
-    padding-bottom: 20px;
+  background: no-repeat white;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .promo-item-sale {
-    background: no-repeat url(../img/promo-item-background.webp);
-    background-size: cover;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 50%;
+  background: no-repeat url(../img/promo-item-background.webp);
+  background-size: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 50%;
 }
 
 .promo-item-offer {
-    background: no-repeat url(../img/promo-last-background.webp);
-    background-size: cover;
-    background-position: 100%;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 50%;
+  background: no-repeat url(../img/promo-last-background.webp);
+  background-size: cover;
+  background-position: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 50%;
 }
 
 .promo-item-inner {
-    padding: 65px 45px;
-    color: #fff;
+  padding: 65px 45px;
+  color: #fff;
 }
 
 .promo-item-inner span:last-child {
-    font-weight: bold;
-    color: var(--header-color);
+  font-weight: bold;
+  color: var(--header-color);
 }
 
 .promo-item-inner p:nth-child(2) {
-    font-size: 40px;
-    font-weight: 600;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .promo-item-inner p:first-child {
-    color: var(--header-color);
-    font-size: 12px;
-    font-weight: 600;
+  color: var(--header-color);
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /* .promo-item-inner p:last-child {
@@ -346,391 +348,421 @@ h4 {
 } */
 
 .promo-item-inner span {
-    color: var(--header-color);
+  color: var(--header-color);
 }
 
 .promo-item-inner .shop-now {
-    padding: 16px 24px;
+  padding: 16px 24px;
 }
 
 .promo-offer {
-    margin: 0 auto;
-    max-width: 1215px;
-    padding: 20px 0px;
+  margin: 0 auto;
+  max-width: 1215px;
+  padding: 20px 0px;
 }
 
 .offer-new {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 10px;
-    color: black;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: black;
 }
 
 .bold-text {
-    font-weight: bold;
-    color: #fff !important;
+  font-weight: bold;
+  color: #fff !important;
 }
 
 .discount-margin {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 /* header styles end */
 
+/* partners carousel start */
+
+.partners-carousel {
+  padding: 20px 0px 60px 0px;
+}
+
+.partners-carousel-item img {
+  width: 165px;
+  height: 82.5px;
+  padding-right: 15px;
+  margin-left: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  color: var(--dark-text-color);
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: unset;
+}
+
+/* partners carousel end */
+
 /* ONLY New Arrivals block //start\\ */
 
 .new-arrivals {
-    margin: 0;
-    max-width: 100%;
-    background: var(--light-text-color);
-    ;
-    text-align: center;
-    font-size: 100%;
+  margin: 0;
+  max-width: 100%;
+  background: var(--light-text-color);
+  text-align: center;
+  font-size: 100%;
 }
 
 .carousel-store {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel-store h4 {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 .carousel-store img {
-    position: relative;
-    max-width: 60%;
-    height: auto;
+  position: relative;
+  max-width: 60%;
+  height: auto;
 }
 
 .new-arrivals-footer {
-    width: 100%;
-    display: grid;
-    grid-template-rows: auto;
-    justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
 }
 
 .specials {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 .mega-sale-day {
-    grid-row: 1;
-    background: no-repeat url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png");
-    background-size: cover;
+  grid-row: 1;
+  background: no-repeat
+    url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png");
+  background-size: cover;
 }
 
 .best-selling {
-    grid-row: 2;
-    background: no-repeat url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png");
-    background-size: cover;
-    color: var(--light-text-color);
+  grid-row: 2;
+  background: no-repeat
+    url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png");
+  background-size: cover;
+  color: var(--light-text-color);
 }
 
 .categories {
-    justify-self: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    text-align: start;
-    width: 100%;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: start;
+  width: 100%;
 }
 
 .subcategory-guitars {
-    background: no-repeat url("../img/z-design-imgs/background-guitars-category.png");
-    background-size: cover;
+  background: no-repeat
+    url("../img/z-design-imgs/background-guitars-category.png");
+  background-size: cover;
 }
 
 .subcategory-drums {
-    background: no-repeat url("../img/z-design-imgs/background-drums-category.png");
-    background-size: cover;
+  background: no-repeat
+    url("../img/z-design-imgs/background-drums-category.png");
+  background-size: cover;
 }
 
 .subcategory-orchestric {
-    background: no-repeat url("../img/z-design-imgs/background-orchestrics-category.png");
-    background-size: cover;
+  background: no-repeat
+    url("../img/z-design-imgs/background-orchestrics-category.png");
+  background-size: cover;
 }
 
 .promotion {
-    background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
-    background-size: cover;
-    color: var(--light-text-color);
+  background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
+  background-size: cover;
+  color: var(--light-text-color);
 }
 
 .new-arrivals .carousel-store .button-add-to-cart button,
 .new-arrivals .specials .best-selling .button-buy-now,
 .new-arrivals .promotion .button-browse-instruments {
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 5px;
-    padding: 15px 25px;
-    border: 1px solid;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: 1px solid;
+  text-decoration: none;
 }
 
 .new-arrivals .carousel-store .button-add-to-cart button {
-    background-color: var(--dark-text-color);
-    color: var(--light-text-color);
-    text-decoration: none;
+  background-color: var(--dark-text-color);
+  color: var(--light-text-color);
+  text-decoration: none;
 }
 
 .new-arrivals .specials .best-selling .button-buy-now {
-    background-color: var(--light-text-color);
-    color: var(--dark-text-color);
-    text-decoration: none;
+  background-color: var(--light-text-color);
+  color: var(--dark-text-color);
+  text-decoration: none;
 }
 
 .new-arrivals .promotion .button-browse-instruments {
-    background-color: var(--header-color);
-    color: var(--light-text-color);
-    text-decoration: none;
+  background-color: var(--header-color);
+  color: var(--light-text-color);
+  text-decoration: none;
 }
 
 .new-arrivals .carousel-store .button-add-to-cart button:hover,
 .new-arrivals .specials .best-selling .button-buy-now:hover {
-    background-color: var(--header-color);
-    color: var(--light-text-color);
-    text-decoration: none;
+  background-color: var(--header-color);
+  color: var(--light-text-color);
+  text-decoration: none;
 }
 
 .new-arrivals .promotion .button-browse-instruments:hover {
-    background-color: var(--light-text-color);
-    color: var(--dark-text-color);
-    text-decoration: none;
+  background-color: var(--light-text-color);
+  color: var(--dark-text-color);
+  text-decoration: none;
 }
 
 /* ONLY New Arrivals block \\finish// */
 
 /* ONLY Best-prices block \\start// */
-.best-prices .divider-line-wraper{
-    padding-left: 46%;
+.best-prices .divider-line-wraper {
+  padding-left: 46%;
 }
 
 .best-prices {
-    background: #ffffff;
-    z-index: 0;
-    text-align: center;
-    padding:100px 50px 50px 50px;
-    
+  background: #ffffff;
+  z-index: 0;
+  text-align: center;
+  padding: 100px 50px 50px 50px;
 }
 
-.product-best-prices{
-    padding: 50px;
-    text-align: left;
+.product-best-prices {
+  padding: 50px;
+  text-align: left;
 }
 
-.product-best-prices p{
-    min-height: 50px;
-    margin-bottom: 10px;
-    font-size: 20px;
+.product-best-prices p {
+  min-height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .product-best-prices a {
-    color: rgb(129, 125, 125);
-    font-size: 18px;
+  color: rgb(129, 125, 125);
+  font-size: 18px;
 }
 
 .product-best-prices img {
-    position: relative;
-    max-width: 300px;
-    max-height: 300px;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
 }
 
-.best-prices-electric-guitar, .best-prices-acoustic-guitar, .best-prices-drums,.best-prices-orchestric,.best-prices-other {
-    display: grid;
-    grid-template-columns:repeat(4,1fr);
-    column-gap: 10px;
-    padding-bottom: 20px;
+.best-prices-electric-guitar,
+.best-prices-acoustic-guitar,
+.best-prices-drums,
+.best-prices-orchestric,
+.best-prices-other {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  padding-bottom: 20px;
 }
 
 .best-prices-block a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .product-best-prices .button-add-to-cart button {
-    background-color: #000;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Work Sans", sans-serif;
-    border-radius: 5px;
-    padding: 15px 25px;
-    border: 1px solid;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: 1px solid;
 }
 
 .product-best-prices .button-add-to-cart button:hover {
-    background-color: #f8b803;
+  background-color: #f8b803;
 }
 
-.product-best-prices-nav{
-    padding-top:50px;
+.product-best-prices-nav {
+  padding-top: 50px;
 }
 
 .product-best-prices-nav a {
-    font-weight: 600;
-    color: rgb(182, 176, 176);
-    padding:0px 10px;
+  font-weight: 600;
+  color: rgb(182, 176, 176);
+  padding: 0px 10px;
 }
 
 .product-best-prices-nav a:hover {
-    color: rgb(87, 84, 84);
+  color: rgb(87, 84, 84);
 }
 section.drum-set-background {
-    background-color: #fff;
-    padding:100px;
+  background-color: #fff;
+  padding: 100px;
 }
 
 .drum-set-background-box {
-    display:grid;
-    grid-template-columns: 1fr 200px 1fr;
-    grid-gap: 10px 20px;
-    padding:50px;
-    background-color: #fafafa;
-
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  grid-gap: 10px 20px;
+  padding: 50px;
+  background-color: #fafafa;
 }
 
 .strike-price {
-    color: darkgray;
-    font-weight: 600;
-    font-size: 18px;
+  color: darkgray;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-.drum-set-text{
-    text-align: left;
+.drum-set-text {
+  text-align: left;
 }
 
-.drum-set-background-box img{
-    max-width:427px;
-    max-height:384px;
+.drum-set-background-box img {
+  max-width: 427px;
+  max-height: 384px;
 }
 
 .drum-set-background-box .button-shop-now button {
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: "Work Sans", sans-serif;
-    border-radius: 5px;
-    padding: 15px 25px;
-    border: 1px solid;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: 1px solid;
 }
 
 .drum-set-background-box .button-shop-now button:hover {
-    background-color: #f8b803;
+  background-color: #f8b803;
 }
 
 .products-promo {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px 20px;
-    padding:50px 50px 50px 0px;
-    text-align: left;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 20px;
+  padding: 50px 50px 50px 0px;
+  text-align: left;
 }
 
-.snare-drums-promo, .drums-bw-promo{
-    background-color: #242424;
-    padding: 30px;
-    line-height: 40px;
+.snare-drums-promo,
+.drums-bw-promo {
+  background-color: #242424;
+  padding: 30px;
+  line-height: 40px;
 }
 
 .promo {
-    margin-top:100px;
-    padding: 20px 20px 20px 800px;
-    text-align: left;
+  margin-top: 100px;
+  padding: 20px 20px 20px 800px;
+  text-align: left;
 }
 
 .products-promo img {
-    max-width: 218px;
-    max-height: 158px;
-    margin:40px 0px;
+  max-width: 218px;
+  max-height: 158px;
+  margin: 40px 0px;
 }
 /*promo finish*/
 
 /* Best-Selling Oleg Buno \\start// */
 
-
-.section{
-    margin: 0px;
-    padding: 0px 0px 120px;
+.section {
+  margin: 0px;
+  padding: 0px 0px 120px;
 }
 
-.best-selling-instruments{
-    padding: 60px 0 120px;
-    background-color:var(--light-text-color) ;
+.best-selling-instruments {
+  padding: 60px 0 120px;
+  background-color: var(--light-text-color);
 }
 
-.small-orange-text{
-    font-size: 12px;
-    margin: 0px;
-    padding: 0px;
+.small-orange-text {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.best-selling-i{
-    margin: 0px;
-    padding: 10px 0px 5px;
+.best-selling-i {
+  margin: 0px;
+  padding: 10px 0px 5px;
 }
 
-.gray-text-b-sell{
-    color: var(--general-text-color);
-    font-size: 18px;
-    margin: 10px 0px 0px;
-
+.gray-text-b-sell {
+  color: var(--general-text-color);
+  font-size: 18px;
+  margin: 10px 0px 0px;
 }
 
 .product-name-nav {
-    font-size: 20px;
-    color: var(--general-text-color);
-    margin: 10px 0px 0px;
+  font-size: 20px;
+  color: var(--general-text-color);
+  margin: 10px 0px 0px;
 }
 
-.product-b-sell img{
-    height: 242px;
-    width: 242px;
+.product-b-sell img {
+  height: 242px;
+  width: 242px;
 }
 
 .button-b-sell {
-    color: var(--light-text-color);
-    font-size: 14px;
-    font-family:'Work Sans', sans-serif;
-    padding: 15px 25px;
-    background-color: var(--dark-text-color);
-    border-radius: 5px;
-    border: 1px solid;
+  color: var(--light-text-color);
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  padding: 15px 25px;
+  background-color: var(--dark-text-color);
+  border-radius: 5px;
+  border: 1px solid;
 }
 
 .button-b-sell:hover {
-    background-color: var(--header-color);
-    transition: 0.4s;
+  background-color: var(--header-color);
+  transition: 0.4s;
 }
 
-.orange-prices-b{
-    font-size: 20px;
-    color: var(--header-color);
-    font-weight: bold;
-    margin: 16px 0px 24px;
+.orange-prices-b {
+  font-size: 20px;
+  color: var(--header-color);
+  font-weight: bold;
+  margin: 16px 0px 24px;
 }
 
-.back-fon-b-sell{
-    background-image: url(../img/best-selling-imgs/fon-guitar.jpg) ;
-    z-index: -1;
-    background-size: cover;
-    width: 100%;
+.back-fon-b-sell {
+  background-image: url(../img/best-selling-imgs/fon-guitar.jpg);
+  z-index: -1;
+  background-size: cover;
+  width: 100%;
 }
 
-.yellow-guitar{
-    
+.yellow-guitar {
 }
 
-.month-info-b{
-    text-align: start;
-    padding-right: 120px;
+.month-info-b {
+  text-align: start;
+  padding-right: 120px;
 }
 
-.info-text-b{
-    color: var(--general-text-color);
+.info-text-b {
+  color: var(--general-text-color);
 }
 
 /* Best-Selling Oleg Buno \\finish// */
@@ -743,163 +775,164 @@ section.drum-set-background {
 }
 */
 
-
 /* Oleh Koval part Start*/
 .on-sale {
-    border: 2px solid #fafafa;
+  border: 2px solid #fafafa;
 }
 .on-sale-block {
-    text-align: center;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
+  text-align: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
 }
 .signup-offer {
-    background-color: #f8b803;
+  background-color: #f8b803;
 }
 .container {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .product-name-link {
-    font-size: 20px;
-    color: #777;
+  font-size: 20px;
+  color: #777;
 }
 .orchestric-sale-week {
-    background: no-repeat url(../img/special-offer-promotion-sale-week/orchestric-sale-week-background.webp);
-    text-align: left;
-    background-size: cover;
+  background: no-repeat
+    url(../img/special-offer-promotion-sale-week/orchestric-sale-week-background.webp);
+  text-align: left;
+  background-size: cover;
 }
 .special-offer {
-    background: no-repeat url(../img/special-offer-promotion-sale-week/special-offer-background.webp);
-    background-size: cover;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 50%;
-    text-align: left;
+  background: no-repeat
+    url(../img/special-offer-promotion-sale-week/special-offer-background.webp);
+  background-size: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 50%;
+  text-align: left;
 }
 .promotion-exclusive {
-    background: no-repeat url(../img/special-offer-promotion-sale-week/promotion-exlusive-background.webp);
-    background-size: cover;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 50%;
-    text-align: left;
+  background: no-repeat
+    url(../img/special-offer-promotion-sale-week/promotion-exlusive-background.webp);
+  background-size: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 50%;
+  text-align: left;
 }
 .button {
-    font-size: 14px;
-    padding: 15px 25px;
-    border-radius: 5px;
-    border: 0px solid;
-    margin: 15px;
-    font-weight: bold;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 0px solid;
+  margin: 15px;
+  font-weight: bold;
 }
 .white-orange {
-    background-color: #fff;
-    color: #1e1e1e;
+  background-color: #fff;
+  color: #1e1e1e;
 }
 .white-orange:hover {
-    background-color:#f8b803;
-    color: #fff;
-    text-decoration: none;
+  background-color: #f8b803;
+  color: #fff;
+  text-decoration: none;
 }
 .signup {
-    background-color: #1E1E1E;
-    color: #fff;
+  background-color: #1e1e1e;
+  color: #fff;
 }
 
 .signup:hover {
-    background-color: #fff;
-    color: #1E1E1E;
-    text-decoration: none;
+  background-color: #fff;
+  color: #1e1e1e;
+  text-decoration: none;
 }
 .signup-footer {
-    background-color: #f8b803;
-    color: #fff;
+  background-color: #f8b803;
+  color: #fff;
 }
 .signup-footer:hover {
-    background-color: #fff;
-    color: #1E1E1E;
-    text-decoration: none;
+  background-color: #fff;
+  color: #1e1e1e;
+  text-decoration: none;
 }
 .line {
-    height: 1px;
-    width: 65%;
-    background-color: rgba(255, 255, 255, 0.05);
-    margin: 15px 0;
+  height: 1px;
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 15px 0;
 }
 #footer {
-    background-color: #242424;
+  background-color: #242424;
 }
 
 .footer-top-columns {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-top-column {
-    flex-direction: column;
-    justify-content: space-between;
-    color:#757575;
-    flex: 1;
-    text-align: left;
-    color: #757575;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #757575;
+  flex: 1;
+  text-align: left;
+  color: #757575;
 }
 
 .footer-top-column a {
-    color: #F8B803;
-    font-size: 20px;
-    font-weight: bold;
+  color: #f8b803;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footer-top-column a:hover {
-    color: #F8B803;
+  color: #f8b803;
 }
 
 .footer-tellphone-email {
-    color: #F8B803;
-    font-size: 20px;
-    font-weight: bold;
+  color: #f8b803;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footer-tellphone-email:hover {
-    color: #F8B803;
+  color: #f8b803;
 }
 
 #footer h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 .footer-columns {
-    justify-content: space-between;
-
+  justify-content: space-between;
 }
 .footer-column {
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .footer-column a {
-    color: #FFFFFF6B;
-    font-size: 15px;
+  color: #ffffff6b;
+  font-size: 15px;
 }
 
 .footer-column a:hover {
-    color: #F8B803;
+  color: #f8b803;
 }
 
 .footer-bottom {
-    background-color: #1E1E1E;
-    color: #fff;
-    font-size: 14px;
-    justify-content: space-around;
-    padding: 15px;
-    margin: -5px -10px 0px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 14px;
+  justify-content: space-around;
+  padding: 15px;
+  margin: -5px -10px 0px;
 }
 
 /* Oleh Koval part END*/
