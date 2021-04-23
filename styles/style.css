@@ -786,6 +786,20 @@ section.drum-set-background {
   padding: 20px;
   text-align: left;
 }
+.countdown {
+    color: #242424;
+    font-size: 36px;
+    display: flex;
+}
+
+.countdown div{
+    padding: 10px;
+}
+
+.countdown div + div{
+    border-left: 1px solid black;
+}
+
 .signup-offer {
   background-color: #f8b803;
 }
