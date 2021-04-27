@@ -7,7 +7,7 @@
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
-  div .menu-links {
+  div .menu-item {
     display: none;
   }
   header .info-header {
@@ -18,7 +18,7 @@
     min-width: 100%;
   }
 
-  nav .social-media {
+  .social-media a {
     display: none;
   }
   header {
@@ -109,7 +109,14 @@
 }
 
 @media (min-width: 767px) and (max-width: 980px) {
-  div .menu-links {
+  div .menu-item {
+    display: none;
+  }
+  header .info-header {
+    display: none;
+  }
+
+  .social-media a {
     display: none;
   }
   .main-section-container {
@@ -123,13 +130,7 @@
   div .home-page h2 {
     font-size: 51px;
   }
-  header .info-header {
-    display: none;
-  }
 
-  nav .social-media {
-    display: none;
-  }
   header {
     min-width: 100%;
   }
