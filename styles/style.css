@@ -603,9 +603,10 @@ h4 {
 }
 
 .carousel {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    width: 100%
 }
 
 .carousel-control-prev-icon,
@@ -638,24 +639,36 @@ h4 {
 .specials {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  margin: 0px;
   justify-content: center;
   width: 100%;
   height: auto;
 }
 
 .mega-sale-day {
+  min-width: 395px;
+  min-height: 312px;
   grid-row: 1;
   background: no-repeat
     url("../img/z-design-imgs/sticks-for-mega-sale-promo-banner.png");
   background-size: cover;
+  
 }
 
 .best-selling {
+  width: 100%;
   grid-row: 2;
   background: no-repeat
     url("../img/z-design-imgs/guitar-for-best-seling-promo-banner.png");
   background-size: cover;
   color: var(--light-text-color);
+  margin-top: 40px;
+  text-align: left;
+  padding: 40px;
+}
+
+.best-selling .best-selling-price {
+    display: flex;
 }
 
 .categories {
@@ -724,6 +737,19 @@ h4 {
   background-color: var(--header-color);
   color: var(--light-text-color);
   text-decoration: none;
+}
+
+.new-arrivals .button-buy-now {
+    width: auto;
+    height: 48px;
+}
+
+.new-arrivals .button-buy-now a {
+    color: var(--dark-text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    
+
 }
 
 .new-arrivals .promotion .button-browse-instruments:hover {
