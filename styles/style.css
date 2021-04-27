@@ -414,17 +414,29 @@ h4 {
   font-size: 100%;
 }
 
-.carousel-store {
-  width: 100%;
+.carousel {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
 }
 
-.carousel-store h4 {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: var(--light-text-color);
+  font-weight: 700;
+  text-align: center;
+  padding-top: 3px;
+  background: var(--dark-text-color);
+  border-radius: 50%;
+}
+
+.carousel h4 {
   font-size: 100%;
 }
 
-.carousel-store img {
+.carousel img {
   position: relative;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -490,7 +502,7 @@ h4 {
   color: var(--light-text-color);
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button,
+.new-arrivals .carousel-inner .button-add-to-cart button,
 .new-arrivals .specials .best-selling .button-buy-now,
 .new-arrivals .promotion .button-browse-instruments {
   font-size: 14px;
@@ -501,7 +513,7 @@ h4 {
   text-decoration: none;
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button {
+.new-arrivals .carousel-inner .button-add-to-cart button {
   background-color: var(--dark-text-color);
   color: var(--light-text-color);
   text-decoration: none;
@@ -519,7 +531,7 @@ h4 {
   text-decoration: none;
 }
 
-.new-arrivals .carousel-store .button-add-to-cart button:hover,
+.new-arrivals .carousel-inner .button-add-to-cart button:hover,
 .new-arrivals .specials .best-selling .button-buy-now:hover {
   background-color: var(--header-color);
   color: var(--light-text-color);
