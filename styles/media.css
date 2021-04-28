@@ -33,6 +33,8 @@
     margin: 30px;
     margin-left: 0px;
     }
+    /*Buno Oleg start*/
+    /*Buno Oleg finish*/
 }
 
 @media (min-width: 767px) and (max-width: 980px) {
@@ -51,6 +53,22 @@
     .footer-column {
         text-align: center;
     }
+
+    /*Buno Oleg start*/
+    .info-guitar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yellow-guitar{
+        width: 40%;
+        padding-left: 10%;
+        
+    }
+    .info-timer-b-sell{
+        width: 50%;
+    }
+    /*Buno Oleg finish*/
 }
 
 @media (min-width: 980px) {
@@ -61,4 +79,19 @@
     .special-offer-group {
         flex-wrap: none;    
     }
+
+    /*Buno Oleg start*/
+    .info-guitar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yellow-guitar{
+        width: 40%;
+        
+    }
+    .info-timer-b-sell{
+        width: 50%;
+    }
+    /*Buno Oleg finish*/
 }
