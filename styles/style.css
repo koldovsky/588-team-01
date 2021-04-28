@@ -910,32 +910,40 @@ section.drum-set-background {
 
 /* Best-Selling Oleg Buno \\start// */
 
-.section {
-  margin: 0px;
-  padding: 0px 0px 120px;
-}
-
-.best-selling-instruments {
-  padding: 60px 0 120px;
+.best-selling-instruments{
   background-color: var(--light-text-color);
+  min-width: 420px;
+  padding: 60px 0 120px;
 }
 
-.small-orange-text {
+.section-products{
+  margin: 0px;
+  padding: 0px 24px 120px;
+}
+
+.small-orange-text{
   font-size: 12px;
   margin: 0px;
   padding: 0px;
 }
 
-.best-selling-i {
+.best-selling-title{
   margin: 0px;
   padding: 10px 0px 5px;
 }
 
-.gray-text-b-sell {
+.gray-text-b-sell{
   color: var(--general-text-color);
   font-size: 18px;
   margin: 10px 0px 0px;
+
 }
+
+.products-carousel{
+  display: flex;
+  justify-content: center;
+}
+
 
 .product-name-nav {
   font-size: 20px;
@@ -943,15 +951,15 @@ section.drum-set-background {
   margin: 10px 0px 0px;
 }
 
-.product-b-sell img {
+.product-b-sell img{
   height: 242px;
   width: 242px;
 }
 
 .button-b-sell {
-  color: var(--light-text-color);
+  color: #ffffff;
   font-size: 14px;
-  font-family: "Work Sans", sans-serif;
+  font-family:'Work Sans', sans-serif;
   padding: 15px 25px;
   background-color: var(--dark-text-color);
   border-radius: 5px;
@@ -963,31 +971,104 @@ section.drum-set-background {
   transition: 0.4s;
 }
 
-.orange-prices-b {
+.orange-prices-b{
   font-size: 20px;
   color: var(--header-color);
   font-weight: bold;
   margin: 16px 0px 24px;
 }
 
-.back-fon-b-sell {
+.back-fon-b-sell{
+  max-width: 100%;
   background-image: url(../img/best-selling-imgs/fon-guitar.jpg);
-  z-index: -1;
   background-size: cover;
-  width: 100%;
-}
-/*
-.yellow-guitar {
-}
-*/
-
-.month-info-b {
-  text-align: start;
-  padding-right: 120px;
+  z-index: -1;
 }
 
-.info-text-b {
+
+.info-text-b{
   color: var(--general-text-color);
+}
+
+.yellow-guitar{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.info-guitar{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.info-guitar-text{
+  margin: 50px 0px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  text-align: start;
+}
+
+.divider-line-wraper-b-sell{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.divider-line-b-sell {
+  height: 2px;
+  width: 9%;
+  background-color: #f8b803;
+}
+
+.vertical-line{
+   border-left: 1px solid rgb(97, 104, 97);
+   max-height: 90px;
+  width: 1px;
+}
+
+.timer{
+  padding-top: 20px; 
+  display: flex;
+  justify-content: center;
+}
+
+/*.timer{
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+
+}*/
+
+.time{
+  color: var( --light-text-color);
+  font-size: 40px;
+  margin: 0%;
+}
+
+/*.timer-info-d, .timer-info-h, .timer-info-m{
+  border-right: 1px solid var(--general-text-color) ;
+  text-align: center;
+}*/
+.timer-days, .timer-hours, .timer-minutes, .timer-seconds{
+  color: var(--general-text-color);
+  font-size: 20px;
+  margin: 0%;
+}
+
+.timer-info-h, .timer-info-m{
+  padding-right: 5px;
+}
+
+.timer-info-d{
+  padding-right: 10px;
 }
 
 /* Best-Selling Oleg Buno \\finish// */
