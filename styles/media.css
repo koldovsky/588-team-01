@@ -1,0 +1,52 @@
+@media (min-width: 425px) and (max-width: 767px) {
+    .on-sale-offers {
+        flex-basis: 100%;
+        margin: 35px 0px 35px 0px;
+    }
+    .on-sale-main-block {
+        flex: 1.25;
+        padding: 45px 25px 45px 25px;
+        flex-basis: 100%;
+    }
+    .special-offer-group {
+        flex-wrap: wrap;
+        
+    }
+    .footer-column, .footer-bottom, .footer-top-column{
+        flex-basis: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .special-offer, .promotion-exclusive {
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .signup-offer {
+        text-align: left;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 980px) {
+    .on-sale-offers {
+        flex-basis: 50%;
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .on-sale-main-block {
+        flex: 1.25;
+        padding: 45px 25px 45px 25px;
+        flex-basis: 100%;
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+}
+
+@media (min-width: 980px) {
+
+}

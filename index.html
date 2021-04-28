@@ -12,6 +12,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 
 <body>
@@ -801,8 +802,8 @@
         <!-- Koval Oleh / "On sale" BLOCK  START -->
         <section id="os" style="background-color: #fff;">
             <div class="container">
-                <div class="d-flex" style="text-align: left; padding-top: 120px; padding-bottom: 40px;">
-                    <div class="align-items-start" style="flex: 1.5; border: 1px solid black; padding: 45px 25px 45px 25px; margin-right: 15px;">
+                <div class="d-flex" style="text-align: left; padding-top: 120px; padding-bottom: 40px; flex-wrap: wrap; ">
+                    <div class="align-items-start on-sale-main-block">
                         <span class="caption-text" style="color: #f8b803;">Up to 40% off</span>
                         <h2 style="color: #242424; font-size: 40px;">On Sale<span class="orange-dot">.</span></h2>
                         <div style="display: flex; padding: 15px 0; position: relative;">
@@ -829,8 +830,8 @@
                             </div>
                          </div>
                     </div>
-                    <article style="flex: 1;">
-                        <div class="d-flex" style="flex-direction: column; padding: 0px 15px 0px 15px; justify-content: space-between;">
+                    <article class="on-sale-offers">
+                        <div class="d-flex" style="flex-direction: column; justify-content: space-between;">
                             <div>
                                 <a href="product-pages/on-sale/dowson-ddr100-acoustic-guitar.html" style="width: 100%; height: 100%">
                                     <img src="img/on-sale-imgs/gitar_footer.jpg" style="width: 100%; height: auto;"
@@ -852,8 +853,8 @@
                             </div>
                         </div>
                     </article>
-                    <article style="flex: 1;">
-                        <div class="d-flex" style="flex-direction: column; padding: 0px 15px 0px 15px; justify-content: space-between;">
+                    <article class="on-sale-offers">
+                        <div class="d-flex" style="flex-direction: column; justify-content: space-between;">
                             <div>
                                 <a href="product-pages/on-sale/lewis-lewel-st-student-violin.html" style="width: 100%; height: 100%">
                                     <img src="img/orchestric-imgs/AERBassHorn.jpeg" style="width: 100%; height: auto;"
@@ -875,8 +876,8 @@
                             </div>
                         </div>
                     </article>
-                    <article style="flex: 1;">
-                        <div class="d-flex" style="flex-direction: column; padding: 0px 0px 0px 15px; justify-content: space-between;">
+                    <article class="on-sale-offers">
+                        <div class="d-flex" style="flex-direction: column; justify-content: space-between;">
                             <div>
                                 <a href="product-pages/on-sale/lewis-lewel-st-student-violin.html" style="width: 100%; height: 100%">
                                     <img src="img/on-sale-imgs/studentViolin.jpeg" style="width: 100%; height: auto;"
@@ -899,12 +900,11 @@
                         </div>
                     </article>
                 </div>
-                
                 <div class="orchestric-sale-week " style="margin-top: 40px; margin-bottom: 20px; padding: 45px 35px 45px 35px;">
                     <span class="caption-text" style="color: rgba(255,255,255,0.55);">ready to shop?</span>
                     <h2 style="color: #fff; font-size: 28px; margin-top: 10px; font-weight: 500;">Orchestric Sale Week<span class="orange-dot">.</span></h2>
                 </div>
-                <div class="d-flex" style="justify-content: space-between; padding-top: 20px; padding-bottom: 120px;">
+                <div class="d-flex special-offer-group" style="justify-content: space-between; padding-top: 20px; padding-bottom: 120px;">
                     <div class="special-offer" style="height: 360px;">
                         <div style="padding: 45px;">
                             <p>
@@ -918,7 +918,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="promotion-exclusive" style="height: 360px;">
+                    <div class="promotion-exclusive" style="height: 360px;" >
                         <div style="padding: 45px;">
                             <p>
                                 <span style="color: rgba(255,255,255,0.55); font-weight: 600;" class="caption-text">promotion</span>
@@ -935,7 +935,7 @@
             </div>
             <div class="signup-offer">
                 <div class="container">
-                    <div class="d-flex " style="justify-content: space-between; align-content: center; padding-top: 15px; padding-bottom: 15px;">
+                    <div class="d-flex " style="justify-content: space-between; align-content: center; padding-top: 15px; padding-bottom: 15px; flex-wrap: wrap;">
                         <div class="d-flex" style="margin-top: 30px;">
                             <h2 style="color: #fff; font-size: 21px; font-weight: bold;"> Special rates for new clients. —
                                 <span style="color:rgba(255, 255, 255, 0.71); font-size: 17px; font-weight: bold;">Sign up to</span>
@@ -956,46 +956,40 @@
     <footer id="footer">
         <div class="footer-top">
             <div class="container">
-                <div class="d-flex footer-top-columns" style="padding-top: 100px; padding-bottom: 27px;">
-                    <div class="footer-top-column align-items-start" style="padding-left: 0px;">
-                            <a href="index.html">
-                                <img width="185" src="img/logo.svg" alt="Logo">
-                            </a>
-                            <div style="margin-top: 30px;">
-                                <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies.Shipping
-                                    worldwide!</p>
+                <div class="d-flex footer-top-columns" style="padding-top: 100px; padding-bottom: 27px; flex-wrap: wrap;">
+                    <div class="footer-top-column" style="padding-left: 0px; ">
+                        <a href="index.html">
+                            <img width="185" src="img/logo.svg" alt="Logo">
+                        </a>
+                        <div style="margin-top: 30px;">
+                            <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies.Shipping
+                                worldwide!</p>
+                        </div>
+                    </div>
+                    <div class="footer-top-column  d-flex">
+                        <p>Have a question?</p>
+                        <p>Call us any time!</p>
+                        <div class="line"></div>
+                        <a href="tel:+12345678900" class="footer-tellphone-email">+1(234)567 89 00</a>
+                    </div>
+                    <div class="footer-top-column  d-flex">
+                        <p>Write to us!</p>
+                        <p>We're here for you 24/7!</p>
+                        <div class="line"></div>
+                        <a href="mailto:sound@email.com" class="footer-tellphone-email">sound@email.com</a>
+                    </div>
+                    <div class="footer-top-column " style="padding-right: 0px;">
+                        <form action="#" id="signup" style="margin-top: 12px;">
+                            <input type="email" name="user-email" placeholder="Email" required class="email-form">
+                            <br>
+                            <div class="d-flex" style="margin-top: 24px;">
+                                <button class="button signup-footer">Sign Up to Our Newsletter</button>
                             </div>
-                    </div>
-                    <div class="footer-top-column align-items-start">
-                        <div>
-                            <p>Have a question?</p>
-                            <p>Call us any time!</p>
-                            <div class="line"></div>
-                            <a href="tel:+12345678900" class="footer-tellphone-email">+1(234)567 89 00</a>
-                        </div>
-                    </div>
-                    <div class="footer-top-column align-items-start">
-                        <div>
-                            <p>Write to us!</p>
-                            <p>We're here for you 24/7!</p>
-                            <div class="line"></div>
-                            <a href="mailto:sound@email.com" class="footer-tellphone-email">sound@email.com</a>
-                        </div>
-                    </div>
-                    <div class="footer-top-column align-items-start" style="padding-right: 0px;">
-                        <div>
-                            <form action="#" id="signup" style="margin-top: 12px;">
-                                <input type="email" name="user-email" placeholder="Email" required class="email-form">
-                                <br>
-                                <div class="d-flex" style="margin-top: 24px;">
-                                    <button class="button signup-footer">Sign Up to Our Newsletter</button>
-                                </div>
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
-                <div class="d-flex footer-columns" style="padding-top: 30px; padding-bottom: 90px;">
-                    <div class="d-flex footer-column align-items-start">
+                <div class="d-flex footer-columns" style="padding-top: 30px; padding-bottom: 90px; flex-wrap: wrap;">
+                    <div class="d-flex footer-column">
                         <h3>Quick Links<span class="orange-dot">.</span></h3>
                         <br>
                         <a href="#">About Us</a>
@@ -1007,7 +1001,7 @@
                         <a href="#footer">Contacts</a>
                         <br>
                     </div>
-                    <div class="d-flex footer-column align-items-start">
+                    <div class="d-flex footer-column">
                         <h3>Company<span class="orange-dot">.</span></h3>
                         <br>
                         <a href="#">Order Tracking</a>
@@ -1019,7 +1013,7 @@
                         <a href="#">Product Support</a>
                         <br>
                     </div>
-                    <div class="d-flex footer-column align-items-start">
+                    <div class="d-flex footer-column ">
                         <h3>Shop<span class="orange-dot">.</span></h3>
                         <br>
                         <a href="#new-arr">New Arrivals</a>
@@ -1035,7 +1029,7 @@
                         <!--Привязати до відповідного розділу-->
                         <br>
                     </div>
-                    <div class="d-flex footer-column align-items-start">
+                    <div class="d-flex footer-column">
                         <h3>Customer Care<span class="orange-dot">.</span></h3>
                         <br>
                         <a href="#">Policy</a>
@@ -1052,9 +1046,9 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <div class="d-flex footer-top-columns" style="padding-top: 15px; padding-bottom: 15px;">
-                     <p>© Created by</p>
-                    <p>All rights Reserved</p>
+                <div class="d-flex footer-top-columns" style="flex-wrap: wrap;">
+                    <div><p>© Created by</p></div>
+                    <div><p>All rights Reserved</p></div>
                 </div>
              </div>
         </div>  
