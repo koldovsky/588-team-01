@@ -231,35 +231,3 @@ oth.addEventListener('click',function(){
 
 
 
-/*
-
-const electricGuitarList=document.querySelector(".electric-guitars")
-function renderProducts(products){
-  const electricGuitarContainer = document.querySelector('.best-prices-electric-guitar');
-  
-  let html = '';
-  for(const product of products)
-  {
-    html += `<artical>
-             <a href="${product.link}">
-             <img src="${product.image}" alt="${product.title}">
-             </a>
-             <p>
-                <a href="${product.link}">${product.title}</a>
-             </p>
-             <p class="orange-prices">${product.price}</p>
-             <div class="button-add-to-cart">
-               <button>Add to Cart</button>
-             </div>
-         </artical>`
-}
-
-electricGuitarContainer.innerHTML=html;
-}
-electricGuitarList.click = renderProducts(JSON.parse(electricGuitarJson));*/
-
-
-
-
-
-
