@@ -36,7 +36,7 @@ const acousticGuitarJson =
   {
       "id": "1",
       "title": "Deanson VV02 Acoustic Guitar",
-      "image": "img/acoustic-guitars-imgs/deanson-VV02-acoustic-guitar.jpeg",
+      "image": "img/acoustic-guitars-imgs/deanson-vv02-acoustic-guitar.jpeg",
       "link": "product-pages/acoustic-guitars/deanson-VV02-acoustic-guitar.html",
       "price": "$112.00USD"
   },
