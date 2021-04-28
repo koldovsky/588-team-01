@@ -957,7 +957,7 @@ section.drum-set-background {
 }
 
 .button-b-sell {
-  color: #ffffff;
+  color: var(--light-text-color);
   font-size: 14px;
   font-family:'Work Sans', sans-serif;
   padding: 15px 25px;
@@ -980,7 +980,9 @@ section.drum-set-background {
 
 .back-fon-b-sell{
   max-width: 100%;
-  background-image: url(../img/best-selling-imgs/fon-guitar.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/best-selling-imgs/fon-guitar.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
   background-size: cover;
   z-index: -1;
 }
@@ -1020,7 +1022,7 @@ section.drum-set-background {
 .divider-line-b-sell {
   height: 2px;
   width: 9%;
-  background-color: #f8b803;
+  background-color: var(--header-color);
 }
 
 .vertical-line{
@@ -1035,28 +1037,12 @@ section.drum-set-background {
   justify-content: center;
 }
 
-/*.timer{
-  font-family: "Work Sans", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-
-  display: grid;
-  grid-template-columns: 70px 70px 70px 70px;
-
-}*/
-
 .time{
   color: var( --light-text-color);
   font-size: 40px;
   margin: 0%;
 }
 
-/*.timer-info-d, .timer-info-h, .timer-info-m{
-  border-right: 1px solid var(--general-text-color) ;
-  text-align: center;
-}*/
 .timer-days, .timer-hours, .timer-minutes, .timer-seconds{
   color: var(--general-text-color);
   font-size: 20px;
@@ -1071,6 +1057,9 @@ section.drum-set-background {
   padding-right: 10px;
 }
 
+.carousel slide{
+  position: relative;
+}
 /* Best-Selling Oleg Buno \\finish// */
 
 /*
