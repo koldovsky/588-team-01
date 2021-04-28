@@ -790,7 +790,7 @@ h4 {
 
 .product-best-prices img {
   position: relative;
-  max-width: 300px;
+  max-width: 100%;
   max-height: 300px;
 }
 
