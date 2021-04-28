@@ -606,7 +606,8 @@ h4 {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 40px;
-    width: 100%
+    width: 100%;
+    text-align: left;
 }
 
 .carousel-control-prev-icon,
@@ -627,6 +628,21 @@ h4 {
   position: relative;
   max-width: 100%;
   height: auto;
+}
+
+.new-arrivals .orange-text {
+  font-size: 12px;
+}
+
+.new-arrivals .orange-prices {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.new-arrivals h4 {
+  margin-top: 10px;
+  color: var(--general-text-color);
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .new-arrivals-footer {
