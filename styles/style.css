@@ -893,10 +893,8 @@ section.drum-set-background {
 
 .promo {
   margin-top: 100px;
-  padding: 20px 20px 20px 80%;
+  padding: 20px 20px 20px 800px;
   text-align: left;
-  align-content: right;
-  max-width: 100%;
 }
 
 .products-promo img {
