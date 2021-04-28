@@ -1021,8 +1021,8 @@ section.drum-set-background {
 .countdown {
   color: #242424;
   font-size: 36px;
-  display: flex;
   margin-top: 50px;
+  justify-content: space-around;
 }
 
 .countdown div{
@@ -1034,12 +1034,13 @@ section.drum-set-background {
 }
 
 .countdown h2 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .time {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .countdown-text {
@@ -1049,7 +1050,7 @@ section.drum-set-background {
   text-anchor: middle;
   opacity: .54;
   color: black;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .on-sale-offers {
@@ -1129,6 +1130,11 @@ section.drum-set-background {
   color: #fff;
   text-decoration: none;
 }
+
+.signup-button{
+  margin: 15px;
+}
+
 .signup {
   background-color: #1e1e1e;
   color: #fff;
@@ -1228,6 +1234,10 @@ section.drum-set-background {
   padding-bottom: 15px;
   align-items: flex-start;
   /* margin: -5px -10px 0px;  ПОЛАМАНО! */
+}
+.footer-bottom-columns {
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Oleh Koval part END*/

@@ -9,14 +9,14 @@
         flex-basis: 100%;
     }
     .special-offer-group {
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;    
     }
-    .footer-column, .footer-bottom, .footer-top-column{
+    .footer-column, .footer-bottom, .footer-top-column, .footer-bottom-columns{
         flex-basis: 100%;
         align-items: center;
         text-align: center;
     }
+
     .special-offer, .promotion-exclusive {
         margin-top: 50px;
         margin-right: 0px;
@@ -24,8 +24,14 @@
         max-width: 100%;
         flex-basis: 100%;
     }
+
     .signup-offer {
         text-align: left;
+    }
+
+    .signup-button{
+    margin: 30px;
+    margin-left: 0px;
     }
 }
 
@@ -48,5 +54,11 @@
 }
 
 @media (min-width: 980px) {
-
+    .footer-column, .footer-bottom, .footer-top-column{
+    align-items: flex-start;
+    text-align: left;
+    }
+    .special-offer-group {
+        flex-wrap: none;    
+    }
 }
