@@ -794,11 +794,7 @@ h4 {
   max-height: 300px;
 }
 
-.best-prices-electric-guitar,
-.best-prices-acoustic-guitar,
-.best-prices-drums,
-.best-prices-orchestric,
-.best-prices-other {
+.product-best-prices {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 10px;
