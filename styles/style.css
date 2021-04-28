@@ -1029,9 +1029,9 @@ section.drum-set-background {
   padding: 10px;
 }
 
-.countdown div + div{
+/*.countdown div + div{
   border-left: 2px solid #fafafa;
-}
+}*/
 
 .countdown h2 {
   font-size: 22px;
