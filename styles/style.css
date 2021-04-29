@@ -600,14 +600,24 @@ h4 {
   background: var(--light-text-color);
   text-align: center;
   font-size: 100%;
+  justify-content: center;
+}
+
+.new-arrivals .divider-line-wraper {
+  justify-content: center;
+}
+
+.new-arrivals .categories .divider-line-wraper {
+  justify-content: left;
 }
 
 .carousel {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 40px;
-    width: 100%;
+    max-width: 425px;
     text-align: left;
+    justify-self: center;
 }
 
 .carousel-control-prev-icon,
@@ -713,12 +723,6 @@ h4 {
   background-size: cover;
 }
 
-.promotion {
-  background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
-  background-size: cover;
-  color: var(--light-text-color);
-}
-
 .new-arrivals .carousel-inner .button-add-to-cart button,
 .new-arrivals .specials .best-selling .button-buy-now,
 .new-arrivals .promotion .button-browse-instruments {
@@ -756,7 +760,7 @@ h4 {
 }
 
 .new-arrivals .button-buy-now {
-    width: auto;
+    width: 130px;
     height: 48px;
 }
 
@@ -768,8 +772,71 @@ h4 {
 
 }
 
+.new-arrivals-footer .categories {
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.new-arrivals-footer .subcategory-guitars,
+.new-arrivals-footer .subcategory-drums,
+.new-arrivals-footer .subcategory-orchestric {
+  border: 2px solid; 
+  border-color:rgb(241, 241, 241);
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.new-arrivals-footer .subcategory-guitars a,
+.new-arrivals-footer .subcategory-drums a,
+.new-arrivals-footer .subcategory-orchestric a {
+  color: var(--general-text-color);
+}
+
+.new-arrivals-footer .promotion {
+  background: url("../img/z-design-imgs/give-a-concert-promo-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--light-text-color);
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 50px;
+  min-height: 400px;
+  text-align: left;
+}
+
+.new-arrivals-footer .promotion .orange-text {
+  font-weight: 500;
+}
+
+.new-arrivals-footer .promotion .give-a-concert {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.new-arrivals .promotion .button-browse-instruments {
+  margin-top: 50px;
+  border: none;
+  width: max-content;
+}
+
+.new-arrivals .promotion .button-browse-instruments a {
+  color: var(--light-text-color);
+  font-weight: 600;
+}
+
 .new-arrivals .promotion .button-browse-instruments:hover {
   background-color: var(--light-text-color);
+  text-decoration: none;
+}
+
+.new-arrivals .promotion .button-browse-instruments a:hover {
   color: var(--dark-text-color);
   text-decoration: none;
 }
