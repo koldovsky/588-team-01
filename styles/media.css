@@ -87,7 +87,7 @@
     }
     section.drum-set-background{
         background-color: #fff;
-        padding:0px 100px 0px 100px;
+        padding:50px 100px 50px 100px;
     }
 
     .drum-set-background-box {
@@ -259,7 +259,7 @@
 
     section.drum-set-background{
         background-color: #fff;
-        padding:0px 100px;
+        padding:50px 100px;
     }
 
     .drum-set-background-box {
