@@ -120,7 +120,7 @@
     }
   
     .products-promo img {
-        max-width: 218px;
+        max-width: 100%;
         max-height: 158px;
         margin: 40px 0px;
     }
@@ -174,7 +174,7 @@
     }
     
     .products-promo img {
-        max-width: 218px;
+        max-width: 100%;
         max-height: 158px;
         margin: 40px 0px;
     }
@@ -237,7 +237,7 @@
     }
   
     .products-promo img {
-        max-width: 218px;
+        max-width: 100%;
         max-height: 158px;
       
     }
@@ -293,7 +293,7 @@
     }
       
     .products-promo img {
-        max-width: 218px;
+        max-width: 100%;
         max-height: 158px;
         margin: 40px 0px;
     }
