@@ -844,6 +844,24 @@ h4 {
 /* ONLY New Arrivals block \\finish// */
 
 /* ONLY Best-prices block \\start// */
+
+.best-prices span,.drum-set-text span,.promo p:first-child,.promo span,.drum-set-text p:first-child,.best-prices p:first-child{
+  color:var(--header-color);
+  font-weight: bold;
+}
+
+.new-best-price{
+  color:rgb(10, 161, 10);
+}
+
+.products-promo h3,.promo p,.promo h2,.snare-drums-promo h2, .drums-bw-promo h2 ,.snare-drums-promo a, .drums-bw-promo a{
+   color:var(--light-text-color);
+ }
+
+ .promo p:first-child,.snare-drums-promo p:first-child, .drums-bw-promo p:first-child{
+  color:var(--header-color);
+}
+
 .best-prices .divider-line-wraper {
   padding-left: 46%;
 }
@@ -852,7 +870,7 @@ h4 {
   background: #ffffff;
   z-index: 0;
   text-align: center;
-  padding: 100px 50px 50px 50px;
+  padding: 50px;
 }
 
 .product-best-prices {
@@ -877,13 +895,6 @@ h4 {
   max-height: 300px;
 }
 
-.product-best-prices {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 10px;
-  padding-bottom: 20px;
-}
-
 .best-prices-block a:hover {
   text-decoration: underline;
 }
@@ -903,10 +914,6 @@ h4 {
   background-color: #f8b803;
 }
 
-.product-best-prices-nav {
-  padding-top: 50px;
-}
-
 .product-best-prices-nav a {
   font-weight: 600;
   color: rgb(182, 176, 176);
@@ -915,18 +922,6 @@ h4 {
 
 .product-best-prices-nav a:hover {
   color: rgb(87, 84, 84);
-}
-section.drum-set-background {
-  background-color: #fff;
-  padding: 100px;
-}
-
-.drum-set-background-box {
-  display: grid;
-  grid-template-columns: 1fr 200px 1fr;
-  grid-gap: 10px 20px;
-  padding: 50px;
-  background-color: #fafafa;
 }
 
 .strike-price {
@@ -959,32 +954,6 @@ section.drum-set-background {
   background-color: #f8b803;
 }
 
-.products-promo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px 20px;
-  padding: 50px 50px 50px 0px;
-  text-align: left;
-}
-
-.snare-drums-promo,
-.drums-bw-promo {
-  background-color: #242424;
-  padding: 30px;
-  line-height: 40px;
-}
-
-.promo {
-  margin-top: 100px;
-  padding: 20px 20px 20px 600px;
-  text-align: left;
-}
-
-.products-promo img {
-  max-width: 218px;
-  max-height: 158px;
-  margin: 40px 0px;
-}
 /*promo finish*/
 
 /* Best-Selling Oleg Buno \\start// */
