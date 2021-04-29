@@ -56,10 +56,13 @@
 
     /* Dmytro Hubych - New Arrivals start */
     
+    .new-arrivals  {
+        justify-content: center;
+    }
+
     .new-arrivals .specials {
         display: flex;
         max-height: 320px;
-        
     }
 
     .new-arrivals-footer .specials .mega-sale-day {
@@ -70,7 +73,6 @@
         max-width: 40%;
         margin-left: 15px;
     }
-
 
     /* Dmytro Hubych - New Arrivals finish */
 
