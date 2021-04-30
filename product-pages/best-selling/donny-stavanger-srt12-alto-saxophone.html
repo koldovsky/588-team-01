@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>Document</title>
 </head>
 <body>
@@ -72,83 +74,106 @@
 <!--Oleg Buno "Best-selling" Block Finish-->
 
 <!-- Koval Oleh / "FOOTER" BLOCK  START -->
-    <footer id="footer">
-        <div>
-            <a href="index.html"><img width="157" src="img/logo.svg" alt="Logo"></a>
-        </div>
-        <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies. Shipping worldwide!</p>
-        <br>
-        <p>Have a question?Call us any time!</p>
-        <div>
-            <a href="tel:+12345678900">+1(234)567 89 00</a>
-        </div>
-        <p>Write to us!We're here for you 24/7!</p>
-        <div>
-            <a href="mailto:sound@email.com">sound@email.com</a>
-        </div>
-        <br>
-        <form action="#" method="#">
-            <label id="#signup">
-                <input type="email" name="user-email" placeholder="Email" required>
-            </label>
-            <br>
-            <div class="signup">
-                    <button>Sign Up to Our Newsletter</button>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="d-flex footer-top-columns" style="padding-top: 100px; padding-bottom: 27px; flex-wrap: wrap;">
+                        <div class="footer-top-column" style="padding-left: 0px; ">
+                            <a href="index.html">
+                                <img width="185" src="img/logo.svg" alt="Logo">
+                            </a>
+                            <div style="margin-top: 30px;">
+                                <p>We are your ultimate stop if you're looking for any musical instruments, equipment, or supplies.Shipping
+                                    worldwide!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex footer-top-column ">
+                            <p>Have a question?</p>
+                            <p>Call us any time!</p>
+                            <div class="line"></div>
+                            <a href="tel:+12345678900" class="footer-tellphone-email">+1(234)567 89 00</a>
+                        </div>
+                        <div class="d-flex footer-top-column ">
+                            <p>Write to us!</p>
+                            <p>We're here for you 24/7!</p>
+                            <div class="line"></div>
+                            <a href="mailto:sound@email.com" class="footer-tellphone-email">sound@email.com</a>
+                        </div>
+                        <div class="footer-top-column " style="padding-right: 0px;">
+                            <form action="#" id="signup" style="margin-top: 12px;">
+                                <input type="email" name="user-email" placeholder="Email" required class="email-form">
+                                <br>
+                                <div class="d-flex" style="margin-top: 24px;">
+                                    <button class="button signup-footer">Sign Up to Our Newsletter</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-flex footer-columns" style="padding-top: 30px; padding-bottom: 90px; flex-wrap: wrap;">
+                        <div class="d-flex footer-column">
+                            <h3>Quick Links<span class="orange-dot">.</span></h3>
+                            <br>
+                            <a href="#">About Us</a>
+                            <br>
+                            <a href="#">Affilate</a>
+                            <br>
+                            <a href="#">Career</a>
+                            <br>
+                            <a href="#footer">Contacts</a>
+                            <br>
+                        </div>
+                        <div class="d-flex footer-column">
+                            <h3>Company<span class="orange-dot">.</span></h3>
+                            <br>
+                            <a href="#">Order Tracking</a>
+                            <br>
+                            <a href="#">Customer Service</a>
+                            <br>
+                            <a href="#">Returns</a>
+                            <br>
+                            <a href="#">Product Support</a>
+                            <br>
+                        </div>
+                        <div class="d-flex footer-column ">
+                            <h3>Shop<span class="orange-dot">.</span></h3>
+                            <br>
+                            <a href="#new-arr">New Arrivals</a>
+                            <!--Привязати до відповідного розділу-->
+                            <br>
+                            <a href="#bp">Instruments</a>
+                            <!--Привязати до відповідного розділу-->
+                            <br>
+                            <a href="#b-sell">Bestsellers</a>
+                            <!--Привязати до відповідного розділу Best-Selling Instruments.-->
+                            <br>
+                            <a href="#os">Sale</a>
+                            <!--Привязати до відповідного розділу-->
+                            <br>
+                        </div>
+                        <div class="d-flex footer-column">
+                            <h3>Customer Care<span class="orange-dot">.</span></h3>
+                            <br>
+                            <a href="#">Policy</a>
+                            <br>
+                            <a href="#">Term & Conditions</a>
+                            <br>
+                            <a href="#">Shipping</a>
+                            <br>
+                            <a href="#">FAQ</a>
+                            <br>
+                        </div>
+                    </div>
                 </div>
-        </form>
-        <div>
-            <div>
-                <h3>Quick Links.</h3>
-                <br>
-                <a href="#">About Us</a>
-                <br>
-                <a href="#">Affilate</a>
-                <br>
-                <a href="#">Career</a>
-                <br>
-                <a href="#footer">Contacts</a>
-                <br> 
             </div>
-            <div>
-                <h3>Company.</h3>
-                <br>
-                <a href="#">Order Tracking</a>
-                <br>
-                <a href="#">Customer Service</a>
-                <br>
-                <a href="#">Returns</a>
-                <br>
-                <a href="#">Product Support</a> 
-                <br>
-            </div>
-            <div>
-                <h3>Shop.</h3>
-                <br>
-                <a href="#new-arr">New Arrivals</a>   <!--Привязати до відповідного розділу-->
-                <br>
-                <a href="#bp">Instruments</a>    <!--Привязати до відповідного розділу-->
-                <br>
-                <a href="#">Bestsellers</a>    <!--Привязати до відповідного розділу Best-Selling Instruments.-->
-                <br>
-                <a href="#">Sale</a>           <!--Привязати до відповідного розділу-->
-                <br>
-            </div>
-            <div>
-                <h3>Customer Care.</h3>
-                <br>
-                <a href="#">Policy</a>
-                <br>
-                <a href="#">Term & Conditions</a>
-                <br>
-                <a href="#">Shipping</a>
-                <br>
-                <a href="#">FAQ</a>
-                <br>
-            </div>
-        </div>
-        <p>© Created by</p>
-        <p>All rights Reserved</p>
-    </footer>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="d-flex footer-bottom-columns" style="flex-wrap: wrap;">
+                        <div><p>© Created by</p></div>
+                        <div><p>All rights Reserved</p></div>
+                    </div>
+                </div>
+            </div>  
+        </footer>
 <!-- Koval Oleh / "FOOTER" BLOCK  FINISH -->
 </body>
 </html>

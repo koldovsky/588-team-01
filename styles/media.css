@@ -1,0 +1,323 @@
+@media (min-width: 425px) and (max-width: 767px) {
+    .on-sale-offers {
+        flex-basis: 100%;
+        margin: 35px 0px 35px 0px;
+    }
+    .on-sale-main-block {
+        flex: 1.25;
+        padding: 45px 25px 45px 25px;
+        flex-basis: 100%;
+    }
+    .special-offer-group {
+        flex-wrap: wrap;    
+    }
+    .footer-column, .footer-bottom, .footer-top-column, .footer-bottom-columns{
+        flex-basis: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .special-offer, .promotion-exclusive {
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .signup-offer {
+        text-align: left;
+    }
+
+    .signup-button{
+    margin: 30px;
+    margin-left: 0px;
+    }
+    /*Buno Oleg start*/
+    /*Buno Oleg finish*/
+}
+
+@media (min-width: 767px) and (max-width: 980px) {
+    .on-sale-offers {
+        flex-basis: 50%;
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .on-sale-main-block {
+        flex: 1.25;
+        padding: 45px 25px 45px 25px;
+        flex-basis: 100%;
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+
+    /* Dmytro Hubych - New Arrivals start */
+    
+    .new-arrivals  {
+        justify-content: center;
+    }
+
+    .new-arrivals .specials {
+        display: flex;
+        max-height: 320px;
+    }
+
+    .new-arrivals-footer .specials .mega-sale-day {
+        width: 50px;
+    }
+
+    .new-arrivals-footer .specials .best-selling {
+        max-width: 40%;
+        margin-left: 15px;
+    }
+
+    /* Dmytro Hubych - New Arrivals finish */
+
+    /*Buno Oleg start*/
+    .info-guitar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yellow-guitar{
+        width: 40%;
+        padding-left: 10%;
+        
+    }
+    .info-timer-b-sell{
+        width: 50%;
+    }
+    /*Buno Oleg finish*/
+}
+
+/*Boiko Daria start*/
+@media(min-width: 980px)and (max-width: 1366px){
+    .product-best-prices {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .product-best-prices-nav {
+        padding-top: 50px;
+        border-bottom: 1px solid rgb(182, 176, 176);
+        padding-bottom: 10px;
+    }
+    section.drum-set-background{
+        background-color: #fff;
+        padding:50px 100px 50px 100px;
+    }
+
+    .drum-set-background-box {
+        display: grid;
+        grid-template-columns: 1fr 200px 1fr;
+        grid-gap: 10px 20px;
+        padding: 50px;
+        background-color: #fafafa;
+    }
+  
+    .products-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 20px;
+        padding: 50px 50px 50px 0px;
+        text-align: left;
+    }
+  
+    .snare-drums-promo,
+    .drums-bw-promo {
+        background-color: #242424;
+        padding: 30px;
+        line-height: 40px;
+    }
+  
+    .promo {
+        margin-top: 100px;
+        padding-left: 400px;
+        text-align: left;
+    }
+  
+    .products-promo img {
+        max-width: 100%;
+        max-height: 158px;
+        margin: 40px 0px;
+    }
+  }
+  
+@media (min-width: 767px) and (max-width: 980px){
+    .product-best-prices {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .product-best-prices-nav {
+        padding-top: 50px;
+        border-bottom: 1px solid  rgb(182, 176, 176);
+        padding-bottom: 10px;
+    }
+
+    section.drum-set-background {
+        background-color: #fff;
+        padding:50px ;
+    
+    }
+
+    .drum-set-background-box {
+        display: grid;
+        padding: 50px;
+        background-color: #fafafa;
+    }
+
+    .products-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 20px;
+        padding: 50px 50px 50px 0px;
+        text-align: left;
+    }
+    
+    .snare-drums-promo,
+    .drums-bw-promo {
+        background-color: #242424;
+        padding: 30px;
+        line-height: 40px;
+    }
+    
+    .promo {
+        margin-top: 100px;
+        padding: 50px;
+        text-align: left;
+    }
+    
+    .products-promo img {
+        max-width: 100%;
+        max-height: 158px;
+        margin: 40px 0px;
+    }
+  }
+  
+@media (min-width: 425px) and (max-width: 767px){
+    .product-best-prices {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .product-best-prices-nav {
+        font-size: 20px;
+        text-decoration: underline;
+        border-bottom: 1px solid  rgb(182, 176, 176);
+        padding-bottom: 10px;
+        margin-top: 20px;
+        line-height: 35px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 10px;
+        text-align: center;
+    }
+  
+    section.drum-set-background {
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .drum-set-background-box {
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+        column-gap: 10px;
+        background-color: #fafafa;
+        padding:0px 20px;
+    }
+
+    .products-promo {
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+        column-gap: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .snare-drums-promo,
+    .drums-bw-promo {
+        background-color: #242424;
+        padding: 30px 0px;
+        margin: 10px;
+        line-height: 30px;
+    }
+  
+    .promo {
+        margin-top: 100px;
+        padding: 20px 20px 20px 20px;
+        text-align: left;
+    }
+  
+    .products-promo img {
+        max-width: 100%;
+        max-height: 158px;
+      
+    }
+}
+
+@media(min-width:1366px){
+    .product-best-prices {
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         column-gap: 10px;
+         padding-bottom: 20px;
+    }
+
+    .product-best-prices-nav {
+        padding-top: 50px;
+        border-bottom: 1px solid rgb(182, 176, 176);
+        padding-bottom: 10px;
+    }
+
+    section.drum-set-background{
+        background-color: #fff;
+        padding:50px 100px;
+    }
+
+    .drum-set-background-box {
+        display: grid;
+        grid-template-columns: 1fr 200px 1fr;
+        grid-gap: 10px 20px;
+        padding: 50px;
+        background-color: #fafafa;
+       
+    }
+      
+    .products-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 20px;
+        padding: 50px 50px 50px 0px;
+        text-align: left;
+    }
+      
+    .snare-drums-promo,
+    .drums-bw-promo {
+        background-color: #242424;
+        padding: 30px;
+        line-height: 40px;
+    }
+      
+    .promo {
+        margin-top: 100px;
+        padding-left: 600px;
+        text-align: left;
+    }
+      
+    .products-promo img {
+        max-width: 100%;
+        max-height: 158px;
+        margin: 40px 0px;
+    }
+}
+/*Boiko finish*/
