@@ -93,8 +93,25 @@
     /*Buno Oleg finish*/
 }
 
+
 /*Boiko Daria start*/
-@media(min-width: 980px)and (max-width: 1366px){
+@media(min-width: 980px){
+
+    /*Buno Oleg start*/
+    .info-guitar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yellow-guitar{
+        width: 40%;
+        
+    }
+    .info-timer-b-sell{
+        width: 50%;
+    }
+    /*Buno Oleg finish*/
+
     .product-best-prices {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

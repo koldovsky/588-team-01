@@ -218,7 +218,7 @@ h4 {
 .orange-text,
 .orange-dot,
 .orange-prices {
-  color: #f8b803;
+  color: var(--header-color);
   font-weight: bold;
 }
 
@@ -228,7 +228,7 @@ h4 {
 }
 
 .white-text {
-  color: white;
+  color: var(--light-text-color);
 }
 
 .divider-line-wraper {
@@ -240,7 +240,7 @@ h4 {
 
 .divider-line {
   height: 2px;
-  background-color: #f8b803;
+  background-color: var(--header-color);
   min-width: 11%;
 }
 
@@ -972,6 +972,9 @@ h4 {
 .section-products {
 	margin: 0px;
 	padding: 0px 24px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .small-orange-text {
@@ -988,23 +991,13 @@ h4 {
 .gray-text-b-sell {
 	color: var(--general-text-color);
 	font-size: 18px;
-	margin: 10px 0px 0px;
-}
-
-.products-carousel {
-	display: flex;
-	justify-content: center;
+	margin: 10px 0px 40px;
 }
 
 .product-name-nav {
 	font-size: 20px;
 	color: var(--general-text-color);
 	margin: 10px 0px 0px;
-}
-
-.product-b-sell img {
-	height: 242px;
-	width: 242px;
 }
 
 .button-b-sell {
@@ -1093,7 +1086,7 @@ h4 {
 }
 
 .timer {
-	padding-top: 20px;
+	padding-top: 40px;
 	display: flex;
 	justify-content: center;
 }
@@ -1125,6 +1118,10 @@ h4 {
 .carousel slide {
 	position: relative;
 }
+
+/*Buno Oleg Sacond-Pages srart*/
+
+/*Buno Oleg Sacond-Pages finish*/
 /* Best-Selling Oleg Buno \\finish// */
 
 /*
