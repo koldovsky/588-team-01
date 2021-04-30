@@ -6,7 +6,7 @@
   --light-text-color: #ffffff;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (min-width: 100px) and (max-width: 767px) {
   div .menu-item {
     display: none;
   }
