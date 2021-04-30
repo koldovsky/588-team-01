@@ -1161,6 +1161,7 @@ h4 {
   padding: 10px;
 }
 
+
 /*.countdown div + div{
   border-left: 2px solid #fafafa;
 }*/
@@ -1169,10 +1170,11 @@ h4 {
   font-size: 22px;
 }
 
-.time {
+.time-on-sale {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--dark-text-color);
 }
 
 .countdown-text {
