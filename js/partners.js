@@ -2,18 +2,18 @@ let swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   spaceBetween: 0,
   breakpoints: {
-    // when window width is >= 425px
-    100: {
+    // when window width is >= 423px
+    423: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
-    // when window width is >= 425px
-    427: {
+    // when window width is >= 765px
+    765: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
     // when window width is >= 980px
-    980: {
+    979: {
       slidesPerView: 4,
       spaceBetween: 40,
     },
